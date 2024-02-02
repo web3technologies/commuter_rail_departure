@@ -11,13 +11,15 @@ This is a simple Django application to display a commuter rail departure board.
 ## Installation
 Navigate to project directory.
 ```
+sudo apt-get install libcurl4-openssl-dev
 python -m venv venv
 source ./venv/bin/activate
+pip install wheel
 pip install -e .
 ```
 
 ### Setup
-cp exampleenv.txt .env
+```cp exampleenv.txt .env```
 
 ### Create Database
 ```

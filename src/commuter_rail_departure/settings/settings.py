@@ -1,6 +1,8 @@
 from decouple import config
 from pathlib import Path
 
+from commuter_rail_departure.settings.vars import *
+
 AUTH_USER_MODEL = 'commuter_rail_departure_auth.User'
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent

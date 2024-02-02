@@ -5,3 +5,5 @@ DB_USER=commuter_rail_departure
 DB_PASSWORD=Testing321
 DB_HOST=127.0.0.1
 DB_PORT=5432
+
+MBTA_KEY=YOUR_KEY
