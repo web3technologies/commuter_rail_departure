@@ -1,6 +1,7 @@
 from decouple import config
 from pathlib import Path
 
+AUTH_USER_MODEL = 'commuter_rail_departure_auth.User'
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
@@ -16,6 +17,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Installed apps
+    "commuter_rail_departure_auth",
+    "commuter_rail_departure_core",
+    "commuter_rail_departure_departures"
 ]
 
 MIDDLEWARE = [

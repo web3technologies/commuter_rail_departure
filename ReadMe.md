@@ -25,7 +25,6 @@ psql -U postgres
 CREATE DATABASE commuter_rail_departure;
 CREATE USER commuter_rail_departure WITH ENCRYPTED PASSWORD 'Testing321';
 GRANT ALL PRIVILEGES ON DATABASE commuter_rail_departure TO commuter_rail_departure;
-ALTER ROLE commuter_rail_departure SET search_path TO public;
 ```
 
 # Migrate database
