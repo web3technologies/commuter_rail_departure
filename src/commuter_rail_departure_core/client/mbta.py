@@ -52,8 +52,7 @@ class MBTAClient:
         params = {'filter[route]': route_id}
         data = self._request('predictions', params)
         schedules = [ScheduleData.from_dict(item) for item in data.get("data", [])]
-        grouped_vehicles = self.__get_grouped_data(schedules)
-        return grouped_vehicles
+        return schedules
 
     def get_predictions(self, route_id:str) -> defaultdict[List[PredictionData]]:
         params = {'filter[route]': route_id}

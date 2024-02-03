@@ -33,18 +33,7 @@ class PredictionData(FormatDateMixin):
             self.stop_id = stop_id
             self.trip_id = trip_id
             self.vehicle_id = vehicle_id
-    
-    @property    
-    def arrival_time_str(self):
-        if self.arrival_time:
-            return self.arrival_time.strftime("%Y-%m-%d %I:%M:%S")
-        return self.arrival_time
-    
-    @property    
-    def departure_time_str(self):
-        if self.departure_time:
-            return self.departure_time.strftime("%Y-%m-%d %I:%M:%S")
-        return self.departure_time
+
 
     @classmethod
     def from_dict(cls, data: dict):

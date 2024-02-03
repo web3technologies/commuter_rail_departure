@@ -11,3 +11,15 @@ class FormatDateMixin:
             eastern = pytz.timezone('US/Eastern')
             date_obj = eastern.localize(date_obj)
         return date_obj
+    
+    @property    
+    def arrival_time_str(self):
+        if self.arrival_time:
+            return self.arrival_time.strftime("%Y-%m-%d %I:%M:%S")
+        return self.arrival_time
+    
+    @property    
+    def departure_time_str(self):
+        if self.departure_time:
+            return self.departure_time.strftime("%Y-%m-%d %I:%M:%S")
+        return self.departure_time
