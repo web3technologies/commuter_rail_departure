@@ -1,48 +1,28 @@
+import os
+import django
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', f'commuter_rail_departure.settings.settings')
+django.setup()
+
 import requests
 import pprint
 from datetime import datetime
 import pytz
+from django.conf import settings
+
+from commuter_rail_departure_core.client import MBTAClient
 
 
-def get_routes():
+client = MBTAClient(settings.MBTA_KEY)
 
-    BASE_URL = "https://api-v3.mbta.com/routes?filter[type]=0,1,2`"
-    res = requests.get(BASE_URL)
-    data = res.json().get("data")
-    desc_mapping = {}
-    type_set = set()
-    ids = []
+def get_data():
 
-    for route in data:
-        desc = route.get("attributes").get("description")
-        type_set.add(route.get("attributes").get("type"))
-        desc_mapping[desc] = desc_mapping.get(desc, 0) + 1
-        pprint.pprint(route)
-        ids.append(route.get("id"))
-    print(ids)
+    routes = client.get_routes(types=["0","1","2"])
 
-def get_predictions():
-    # base_url = "https://api-v3.mbta.com/predictions/?filter[route]=CR-Kingston"
-    base_url = "https://api-v3.mbta.com/schedules/?filter[route]=CR-Kingston"
-    res = requests.get(base_url)
-    data = res.json()
-    print("Departure Time", "Arrival Time")
-    for prediction in data.get("data"):
-        attrs = prediction.get("attributes")
-        rels = prediction.get("relationships").get("trip").get("data").get("id")
-        print(rels)
-        print(format_date(attrs.get("departure_time")), format_date(attrs.get("arrival_time")))
+    for route in routes:
+        predictions = client.get_predictions(route.id)
+        for prediction in predictions:
+            print(prediction)
 
-
-        
-def format_date(date_str:str):
-    if not date_str:
-        return date_str
-    date_obj = datetime.fromisoformat(date_str)
-    eastern = pytz.timezone('US/Eastern')
-    eastern_time = date_obj.astimezone(eastern)
-    formatted_time = eastern_time.strftime("%I:%M:%S %p")
-    return formatted_time
 
 if __name__ == "__main__":
-    get_predictions()
+    get_data()
