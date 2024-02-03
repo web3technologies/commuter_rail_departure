@@ -1,6 +1,7 @@
-from datetime import datetime
+from commuter_rail_departure_core.types.format_date_mixin import FormatDateMixin
 
-class Prediction:
+
+class PredictionData(FormatDateMixin):
     
     def __init__(self, 
                  arrival_time: str, 
@@ -36,21 +37,14 @@ class Prediction:
     @property    
     def arrival_time_str(self):
         if self.arrival_time:
-            return self.arrival_time.strftime("%Y-%m-%d %I:%M:%S %p %Z")
+            return self.arrival_time.strftime("%Y-%m-%d %I:%M:%S")
         return self.arrival_time
     
     @property    
     def departure_time_str(self):
         if self.departure_time:
-            return self.departure_time.strftime("%Y-%m-%d %I:%M:%S %p %Z")
+            return self.departure_time.strftime("%Y-%m-%d %I:%M:%S")
         return self.departure_time
-
-    @staticmethod
-    def format_date(date_str: str):
-        if not date_str:
-            return None
-        date_obj = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
-        return date_obj
 
     @classmethod
     def from_dict(cls, data: dict):
@@ -70,7 +64,7 @@ class Prediction:
             route_id=relationships['route']['data']['id'],
             stop_id=relationships['stop']['data']['id'],
             trip_id=relationships['trip']['data']['id'],
-            vehicle_id=relationships['vehicle']['data'].get('id')
+            vehicle_id=relationships['vehicle']['data'].get('id') if relationships['vehicle'].get("data") else None
         )
 
     def __repr__(self) -> str:

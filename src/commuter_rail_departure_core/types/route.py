@@ -1,7 +1,8 @@
 from typing import List
 
 
-class Route:
+class RouteData:
+    
     def __init__(self, id: str, type: int, color: str, description: str, direction_destinations: List[str], direction_names: List[str], fare_class: str, long_name: str, short_name: str, sort_order: int, text_color: str, line_id: str) -> None:
         self.id = id
         self.type = type
