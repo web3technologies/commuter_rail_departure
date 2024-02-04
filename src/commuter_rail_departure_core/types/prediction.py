@@ -10,7 +10,7 @@ class PredictionData(FormatDateMixin):
                  departure_uncertainty: bool, 
                  direction_id: int, 
                  revenue: str, 
-                 schedule_relationship: bool, 
+                 schedule_relationship: str, 
                  status: bool, 
                  stop_sequence: int,
                  id: str,

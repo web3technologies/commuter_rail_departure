@@ -32,25 +32,12 @@ class MBTAClient:
         except requests.exceptions.RequestException as e:
             print(f"Error: {e}")
         return {}
-    
-    def __get_grouped_data(self, vehicle_data):
-        grouped_vehicles = defaultdict(list)
-        for prediction in vehicle_data:
-            grouped_vehicles[prediction.vehicle_id].append(prediction)
-        datetime_max_tz_aware = datetime.max.replace(tzinfo=timezone.utc)
-        for vehicle_id in grouped_vehicles:
-            grouped_vehicles[vehicle_id].sort(key=lambda prediction: (
-                prediction.arrival_time or datetime_max_tz_aware,
-                prediction.departure_time or datetime_max_tz_aware
-            ))
-
-        return grouped_vehicles
 
     def get_predictions(self, stop_id:str, route_id:str) -> defaultdict[List[PredictionData]]:
         params = {'filter[stop]': stop_id, 'filter[route]': route_id}
         data = self._request('predictions', params)
         predictions = [PredictionData.from_dict(item) for item in data.get("data", [])]
-        # grouped_vehicles = self.__get_grouped_data(predictions)
+        predictions.sort(key=lambda prediction: prediction.departure_time or datetime.max.replace(tzinfo=timezone.utc))
         return predictions
 
     def get_routes(self, types: Optional[List[int]] = None) -> List[RouteData]:
@@ -62,9 +49,9 @@ class MBTAClient:
         routes = [RouteData.from_dict(item) for item in data.get("data", [])]
         return routes
     
-    def get_schedules(self, route_id:str) -> defaultdict[List[ScheduleData]]:
+    def get_schedules(self, stop_id:str, route_id:str) -> defaultdict[List[ScheduleData]]:
         """Gets a list of schedules for a route id"""
-        params = {'filter[route]': route_id}
+        params = {'filter[stop]': stop_id, 'filter[route]': route_id}
         data = self._request('predictions', params)
         schedules = [ScheduleData.from_dict(item) for item in data.get("data", [])]
         return schedules

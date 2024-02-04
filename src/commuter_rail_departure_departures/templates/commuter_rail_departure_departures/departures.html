@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display List</title>
+</head>
+<body>
+    <h1>List of Lists</h1>
+    <ul>
+        {% for sublist in departures %}
+            <li>
+                {% for item in sublist %}
+                    {{ item }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
