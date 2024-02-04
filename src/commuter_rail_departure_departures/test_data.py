@@ -5,9 +5,6 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', f'commuter_rail_departure.settin
 django.setup()
 from django.conf import settings
 
-from datetime import datetime
-import pytz
-
 from commuter_rail_departure_core.client import MBTAClient
 
 
@@ -15,8 +12,7 @@ client = MBTAClient(settings.MBTA_KEY)
 
 def get_data():
     data = []
-    eastern = pytz.timezone('US/Eastern')
-    eastern_time = datetime.now(eastern).strftime("%Y-%m-%d %I:%M:%S")
+
     stop = client.get_stop("place-north")
     routes = client.get_routes(types=["0","1","2"])
     for route in routes:
@@ -38,15 +34,15 @@ def get_data():
                     status = "ON-TIME"
                 else:
                     status = "LATE"
-                print(time_diff, scheduled_departure.strftime("%I:%M:%S"), prediction.departure_time.strftime("%I:%M:%S"))
             data.append(
                ["MBTA", 
-                prediction.status if prediction.status else prediction.departure_time_str,
+                prediction.departure_time,
                 trip.headsign, 
                 vehicle.id, 
                 prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status
                 ] 
             )
+    data.sort(key=lambda predictionData: predictionData[1])
     return data
 
 if __name__ == "__main__":
