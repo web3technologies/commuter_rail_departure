@@ -1,3 +1,6 @@
 from commuter_rail_departure_core.types.prediction import PredictionData
 from commuter_rail_departure_core.types.route import RouteData
 from commuter_rail_departure_core.types.schedule import ScheduleData
+from commuter_rail_departure_core.types.stop import StopData
+from commuter_rail_departure_core.types.trip import TripData
+from commuter_rail_departure_core.types.vehicle import VehicleData

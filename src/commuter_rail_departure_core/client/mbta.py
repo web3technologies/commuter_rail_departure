@@ -4,7 +4,14 @@ from typing import List, Optional
 
 import requests
 
-from commuter_rail_departure_core.types import PredictionData, RouteData, ScheduleData 
+from commuter_rail_departure_core.types import (
+    PredictionData, 
+    RouteData, 
+    ScheduleData, 
+    StopData,
+    TripData,
+    VehicleData
+) 
 
 
 class MBTAClient:
@@ -36,8 +43,16 @@ class MBTAClient:
                 prediction.arrival_time or datetime_max_tz_aware,
                 prediction.departure_time or datetime_max_tz_aware
             ))
+
         return grouped_vehicles
-    
+
+    def get_predictions(self, stop_id:str, route_id:str) -> defaultdict[List[PredictionData]]:
+        params = {'filter[stop]': stop_id, 'filter[route]': route_id}
+        data = self._request('predictions', params)
+        predictions = [PredictionData.from_dict(item) for item in data.get("data", [])]
+        # grouped_vehicles = self.__get_grouped_data(predictions)
+        return predictions
+
     def get_routes(self, types: Optional[List[int]] = None) -> List[RouteData]:
         """Gets a list of possible routes."""
         params = {}
@@ -54,9 +69,14 @@ class MBTAClient:
         schedules = [ScheduleData.from_dict(item) for item in data.get("data", [])]
         return schedules
 
-    def get_predictions(self, route_id:str) -> defaultdict[List[PredictionData]]:
-        params = {'filter[route]': route_id}
-        data = self._request('predictions', params)
-        predictions = [PredictionData.from_dict(item) for item in data.get("data", [])]
-        grouped_vehicles = self.__get_grouped_data(predictions)
-        return grouped_vehicles
+    def get_stop(self, stop_id:str) -> StopData:
+        data = self._request(f"stops/{stop_id}")
+        return StopData.from_dict(data.get("data"))
+    
+    def get_trip(self, trip_id:str) -> TripData:
+        data = self._request(f"trips/{trip_id}")
+        return TripData.from_dict(data.get("data"))
+    
+    def get_vehicle(self, vehicle_id:str) -> dict:
+        data = self._request(f"vehicles/{vehicle_id}")
+        return VehicleData.from_dict(data.get("data"))
