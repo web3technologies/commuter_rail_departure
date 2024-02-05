@@ -56,6 +56,7 @@ class VehicleData:
         attributes = data['attributes']
         relationships = data['relationships']
         carriages = [Carriage.from_dict(carriage) for carriage in attributes.get('carriages', [])]
+        print()
         return cls(
             id=data.get('id'),
             bearing=attributes.get('bearing'),
@@ -71,8 +72,8 @@ class VehicleData:
             speed=attributes.get('speed'),
             updated_at=attributes.get('updated_at'),
             route_id=relationships['route']['data']['id'],
-            stop_id=relationships['stop']['data']['id'],
-            trip_id=relationships['trip']['data']['id']
+            stop_id=relationships['stop']['data']['id'] if relationships["stop"].get("data") else "",
+            trip_id=relationships['trip']['data']['id'] if relationships["trip"].get("data") else ""
         )
 
     def __repr__(self) -> str:

@@ -23,6 +23,7 @@ def get_data():
             print(prediction.departure_time)
             if prediction.departure_time is None:
                 continue
+            print(prediction)
             vehicle = client.get_vehicle(prediction.vehicle_id)
             trip = client.get_trip(prediction.trip_id)
             if prediction.trip_id in trip_id_to_schedule_mapping:
