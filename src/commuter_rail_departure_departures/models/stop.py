@@ -60,7 +60,15 @@ class StopManager(models.Manager):
         return all_stops
     
     def with_child_count(self):
-        return self.filter(parent_station__isnull=True).annotate(child_stops_count=models.Count("child_stops"))
+        return self.stations().annotate(child_stops_count=models.Count("child_stops"))
+    
+    def stations(self):
+        """ Returns a list of all stations
+
+        Returns:
+            _type_: _description_
+        """
+        return self.filter(parent_station__isnull=True, location_type=1)
 
 class Stop(models.Model):
     

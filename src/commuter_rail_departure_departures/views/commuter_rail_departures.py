@@ -7,9 +7,6 @@ from commuter_rail_departure_departures.models import Stop
 from commuter_rail_departure_core.client import mbta_client
 
 
-
-
-
 class DeparturesView(TemplateView):
     template_name = 'commuter_rail_departure_departures/departures.html'
     
@@ -24,9 +21,11 @@ class DeparturesView(TemplateView):
     def get_data(self):
         data = []
         stop = Stop.objects.get(mbta_id="place-north")
-        routes = mbta_client.get_routes(types=["0","1","2"])
+        routes = mbta_client.get_routes(types=["2"])
         for route in routes:
             predictions = mbta_client.get_predictions(stop.mbta_id, route.id)
+            if not predictions:
+                continue
             schedules = mbta_client.get_schedules(stop.mbta_id, route.id)
             trip_id_to_schedule_mapping = {schedule.trip_id: schedule for schedule in schedules}        
             for prediction in predictions:
