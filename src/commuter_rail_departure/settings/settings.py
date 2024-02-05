@@ -10,7 +10,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 SECRET_KEY = config("DJANGO_SECRET_KEY")
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
+
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000'
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -20,7 +24,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #3rd party,
+    'corsheaders',
     "django_extensions",
+    "rest_framework",
     # Installed apps
     "commuter_rail_departure_auth",
     "commuter_rail_departure_core",
@@ -28,6 +34,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
