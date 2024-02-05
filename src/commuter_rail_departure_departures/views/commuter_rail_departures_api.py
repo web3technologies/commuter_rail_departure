@@ -12,16 +12,16 @@ from commuter_rail_departure_core.client import mbta_client
 
 class DeparturesApiView(APIView):
     
-    def get_data(self, current_eastern_time):
+    def get_data(self, current_eastern_time, stop_mbta_id):
         data = []
         routes = Route.objects.filter(type="2")
         trip_cache = {}
         stop_cache = {}
         for route in routes:
-            predictions = mbta_client.get_predictions(route.mbta_id)
+            predictions = mbta_client.get_predictions(route.mbta_id, stop_id=stop_mbta_id)
             if not predictions:
                 continue
-            schedules = mbta_client.get_schedules(route.mbta_id)
+            schedules = mbta_client.get_schedules(route.mbta_id, stop_id=stop_mbta_id)
             trip_id_to_schedule_mapping = {(schedule.trip_id, schedule.stop_id): schedule for schedule in schedules}        
             for prediction in predictions:
                 print(prediction)
@@ -69,7 +69,7 @@ class DeparturesApiView(APIView):
         return_data = {}
         eastern = pytz.timezone('US/Eastern')
         eastern_time = datetime.now(eastern)
-        return_data['departures'] = self.get_data(eastern_time)
+        return_data['departures'] = self.get_data(eastern_time, kwargs.get("mbta_id"))
         return_data["eastern_date"] = eastern_time.strftime("%Y-%m-%d ")
         return_data["eastern_time"] = eastern_time.strftime("%I:%M:%S %p")
         return Response(return_data, HTTP_200_OK)

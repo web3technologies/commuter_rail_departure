@@ -18,6 +18,7 @@ from commuter_rail_departure_core.types import (
 
 
 class MBTAClient:
+
     base_url = "https://api-v3.mbta.com"
     
     def __init__(self, mbta_access_key: str) -> None:
@@ -25,7 +26,7 @@ class MBTAClient:
         self.headers = {"x-api-key": self.mbta_access_key}
     
     def _request(self, endpoint: str, params: Optional[dict] = None) -> dict:
-        """Generic method to handle API requests."""
+        """Method to handle API requests."""
         try:
             response = requests.get(f"{self.base_url}/{endpoint}", headers=self.headers, params=params)
             response.raise_for_status()
@@ -36,8 +37,10 @@ class MBTAClient:
             print(f"Error: {e}")
         return {}
 
-    def get_predictions(self, route_id:str) -> defaultdict[List[PredictionData]]:
+    def get_predictions(self, route_id:str, stop_id:Optional[str]="") -> defaultdict[List[PredictionData]]:
         params = {'filter[route]': route_id}
+        if stop_id:
+            params["filter[stop]"] = stop_id
         data = self._request('predictions', params)
         predictions = [PredictionData.from_dict(item) for item in data.get("data", [])]
         predictions.sort(key=lambda prediction: prediction.departure_time or datetime.max.replace(tzinfo=timezone.utc))
@@ -52,9 +55,11 @@ class MBTAClient:
         routes = [RouteData.from_dict(item) for item in data.get("data", [])]
         return routes
     
-    def get_schedules(self, route_id:str) -> defaultdict[List[ScheduleData]]:
+    def get_schedules(self, route_id:str, stop_id:Optional[str]="") -> defaultdict[List[ScheduleData]]:
         """Gets a list of schedules for a route id"""
         params = {'filter[route]': route_id}
+        if stop_id:
+            params["filter[stop]"] = stop_id
         data = self._request('predictions', params)
         schedules = [ScheduleData.from_dict(item) for item in data.get("data", [])]
         return schedules
