@@ -36,8 +36,8 @@ class MBTAClient:
             print(f"Error: {e}")
         return {}
 
-    def get_predictions(self, stop_id:str, route_id:str) -> defaultdict[List[PredictionData]]:
-        params = {'filter[stop]': stop_id, 'filter[route]': route_id}
+    def get_predictions(self, route_id:str) -> defaultdict[List[PredictionData]]:
+        params = {'filter[route]': route_id}
         data = self._request('predictions', params)
         predictions = [PredictionData.from_dict(item) for item in data.get("data", [])]
         predictions.sort(key=lambda prediction: prediction.departure_time or datetime.max.replace(tzinfo=timezone.utc))
@@ -52,9 +52,9 @@ class MBTAClient:
         routes = [RouteData.from_dict(item) for item in data.get("data", [])]
         return routes
     
-    def get_schedules(self, stop_id:str, route_id:str) -> defaultdict[List[ScheduleData]]:
+    def get_schedules(self, route_id:str) -> defaultdict[List[ScheduleData]]:
         """Gets a list of schedules for a route id"""
-        params = {'filter[stop]': stop_id, 'filter[route]': route_id}
+        params = {'filter[route]': route_id}
         data = self._request('predictions', params)
         schedules = [ScheduleData.from_dict(item) for item in data.get("data", [])]
         return schedules
