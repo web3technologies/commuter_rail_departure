@@ -56,7 +56,6 @@ class VehicleData:
         attributes = data['attributes']
         relationships = data['relationships']
         carriages = [Carriage.from_dict(carriage) for carriage in attributes.get('carriages', [])]
-        print()
         return cls(
             id=data.get('id'),
             bearing=attributes.get('bearing'),

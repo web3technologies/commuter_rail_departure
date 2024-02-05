@@ -4,6 +4,9 @@ from typing import List, Optional
 
 import requests
 
+from django.conf import settings
+from django.utils.functional import SimpleLazyObject
+
 from commuter_rail_departure_core.types import (
     PredictionData, 
     RouteData, 
@@ -60,10 +63,17 @@ class MBTAClient:
         data = self._request(f"stops/{stop_id}")
         return StopData.from_dict(data.get("data"))
     
+    def get_stops(self) -> List[StopData]:
+        data = self._request(f"stops/")
+        return [StopData.from_dict(obj) for obj in data.get("data")]
+    
     def get_trip(self, trip_id:str) -> TripData:
         data = self._request(f"trips/{trip_id}")
         return TripData.from_dict(data.get("data"))
     
-    def get_vehicle(self, vehicle_id:str) -> dict:
+    def get_vehicle(self, vehicle_id:str) -> VehicleData:
         data = self._request(f"vehicles/{vehicle_id}")
         return VehicleData.from_dict(data.get("data"))
+
+
+mbta_client = SimpleLazyObject(lambda: MBTAClient(settings.MBTA_KEY))

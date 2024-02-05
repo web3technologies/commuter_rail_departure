@@ -19,6 +19,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #3rd party,
+    "django_extensions",
     # Installed apps
     "commuter_rail_departure_auth",
     "commuter_rail_departure_core",
