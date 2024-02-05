@@ -3,7 +3,7 @@ import pytz
 
 from django.views.generic import TemplateView
 
-from commuter_rail_departure_departures.models import Stop
+from commuter_rail_departure_departures.models import Route, Stop
 from commuter_rail_departure_core.client import mbta_client
 
 
@@ -21,14 +21,14 @@ class DeparturesView(TemplateView):
     
     def get_data(self, current_eastern_time):
         data = []
-        routes = mbta_client.get_routes(types=["2"])
+        routes = Route.objects.filter(type="2")
         trip_cache = {}
         stop_cache = {}
         for route in routes:
-            predictions = mbta_client.get_predictions(route.id)
+            predictions = mbta_client.get_predictions(route.mbta_id)
             if not predictions:
                 continue
-            schedules = mbta_client.get_schedules(route.id)
+            schedules = mbta_client.get_schedules(route.mbta_id)
             trip_id_to_schedule_mapping = {(schedule.trip_id, schedule.stop_id): schedule for schedule in schedules}        
             for prediction in predictions:
                 print(prediction)
