@@ -20,11 +20,11 @@ def get_data():
         schedules = client.get_schedules(stop.id, route.id)
         trip_id_to_schedule_mapping = {schedule.trip_id: schedule for schedule in schedules}        
         for prediction in predictions:
+            print(prediction.departure_time)
             if prediction.departure_time is None:
                 continue
             vehicle = client.get_vehicle(prediction.vehicle_id)
             trip = client.get_trip(prediction.trip_id)
-            
             if prediction.trip_id in trip_id_to_schedule_mapping:
                 scheduled_departure = trip_id_to_schedule_mapping[prediction.trip_id].departure_time
                 time_diff = prediction.departure_time - scheduled_departure
