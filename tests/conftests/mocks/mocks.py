@@ -6,7 +6,7 @@ from collections import defaultdict
 import json
 
 
-from commuter_rail_departure_core.client.mbta import MBTAClient
+from commuter_rail_departure_core.client import mbta
 
 from commuter_rail_departure_core.types import (
     PredictionData, 
@@ -25,7 +25,7 @@ def mock_mbta_client(monkeypatch):
             self.mbta_access_key = mbta_access_key
             self.headers = {"x-api-key": self.mbta_access_key}
             
-        def __return_dict(filename):
+        def __return_dict(self, filename):
             with open(f"{settings.MOCK_DATA}{filename}", "r") as file:
                 data = json.load(file)
                 return data 
@@ -65,4 +65,4 @@ def mock_mbta_client(monkeypatch):
             return VehicleData.from_dict(data.get("data"))
             
 
-    monkeypatch.setattr(MBTAClient, "ApiClient", MockMBTAClient)
+    monkeypatch.setattr(mbta, "MBTAClient", MockMBTAClient)
