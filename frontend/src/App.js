@@ -30,6 +30,10 @@ function App() {
     }
   }, [])
   
+  function convertDate(date){
+    return new Date(date).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
+
+  }
   
   return (
     <div className="container">
@@ -61,11 +65,13 @@ function App() {
                 </tr>
               ) : (
                 departures.departures.length > 0 &&
-                departures.departures.map(departureArr => (
-                  <tr>
-                    {departureArr.map((val, index) => (
-                      <td key={index}>{val}</td>
-                    ))}
+                departures.departures.map(departure => (
+                  <tr style={{color: departure.has_prediction ? "#6495ED": null} }>
+                      <td>{departure.carrier}</td>
+                      <td>{departure.departure_time ? convertDate(departure.departure_time) : null}</td>
+                      <td>{departure.destination}</td>
+                      <td>{departure.vehicle_id}</td>
+                      <td>{departure.status}</td>
                   </tr>
                 ))
               )}
