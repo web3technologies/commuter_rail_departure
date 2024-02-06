@@ -38,7 +38,7 @@ python -m venv /applications/commuter_rail_departure/venv
 . "/applications/commuter_rail_departure/venv/bin/activate"
 pip install --upgrade pip
 pip install wheel
-pip install $jenkins_proj_path/dist/commuter_rail_departure-0.1.6-py3-none-any.whl
+pip install $jenkins_proj_path/dist/commuter_rail_departure-0.1.0-py3-none-any.whl
 cp $jenkins_proj_path/manage.py /applications/commuter_rail_departure/
 cp $jenkins_proj_path/commuter_rail_departure/commuter_rail_departure/wsgi.py /applications/commuter_rail_departure/
 cp "/var/lib/jenkins/envs/commuter_rail_departure/.env" /applications/commuter_rail_departure/
