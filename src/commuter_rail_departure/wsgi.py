@@ -8,9 +8,9 @@ https://docs.djangoproject.com/en/5.0/howto/deployment/wsgi/
 """
 
 import os
-
+from decouple import config
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'commuter_rail_departure.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', f"commuter_rail_departure.settings.{config('DJANGO_SETTINGS_MODULE')}")
 
 application = get_wsgi_application()
