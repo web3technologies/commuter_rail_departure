@@ -18,45 +18,55 @@ class DeparturesApiView(APIView):
         trip_cache = {}
         for route in routes:
             predictions = mbta_client.get_predictions(route.mbta_id, stop_id=stop_mbta_id)
+            trip_id_to_prediction_mapping = {(prediction.trip_id, prediction.stop_id): prediction for prediction in predictions}        
             if not predictions:
                 continue
             schedules = mbta_client.get_schedules(route.mbta_id, stop_id=stop_mbta_id)
-            trip_id_to_schedule_mapping = {(schedule.trip_id, schedule.stop_id): schedule for schedule in schedules}        
-            for prediction in predictions:
-                print(prediction)
+            for schedule in schedules:
                 
-                if not prediction.departure_time:
+                if not schedule.departure_time or current_eastern_time > schedule.departure_time:
                     continue
-                    
-                if current_eastern_time > prediction.departure_time:
-                    continue
-
-                scheduled_departure = None
-                if (prediction.trip_id, prediction.stop_id) in trip_id_to_schedule_mapping and prediction.departure_time:
-                    scheduled_departure = trip_id_to_schedule_mapping[(prediction.trip_id, prediction.stop_id)]
-                    time_diff = prediction.departure_time - scheduled_departure.departure_time
-                    if time_diff < timedelta(minutes=0):
-                        status = "EARLY"
-                    elif time_diff >= timedelta(minutes=0) and time_diff < timedelta(minutes=3):
-                        status = "ON-TIME"
+                
+                if (schedule.trip_id, schedule.stop_id) in trip_id_to_prediction_mapping:
+                    prediction = trip_id_to_prediction_mapping[(schedule.trip_id, schedule.stop_id)]
+                    if prediction.departure_time:
+                        time_diff = prediction.departure_time - schedule.departure_time
+                        if time_diff < timedelta(minutes=0):
+                            status = "EARLY"
+                        elif time_diff >= timedelta(minutes=0) and time_diff < timedelta(minutes=3):
+                            status = "ON-TIME"
+                        else:
+                            status = "LATE"
                     else:
-                        status = "LATE"
-                else:
-                    status = "Final Stop"
+                        status = "unkown"
+                    if prediction.trip_id not in trip_cache:
+                        trip_cache[prediction.trip_id] = mbta_client.get_trip(prediction.trip_id)
+                    append_data = \
+                        {
+                            "carrier": "MBTA",
+                            "departure_time": prediction.departure_time if prediction.departure_time else "---",
+                            "destination": trip_cache[prediction.trip_id].headsign, 
+                            "vehicle_id": prediction.vehicle_id, 
+                            "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
+                            "has_prediction": True
+                        }
+                            
                         
-                if prediction.trip_id not in trip_cache:
-                    trip_cache[prediction.trip_id] = mbta_client.get_trip(prediction.trip_id)
-                
-                data.append(
-                    [
-                        "MBTA",
-                        prediction.departure_time_str if prediction.departure_time_str else "---",
-                        trip_cache[prediction.trip_id].headsign, 
-                        prediction.vehicle_id, 
-                        prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
-                    ] 
-                )
-        data.sort(key=lambda predictionData: (predictionData[1]))
+                elif not schedule.departure_time:
+                    status = "FINAL-STOP"
+                else:
+                    status = "ON-TIME"
+                    append_data = \
+                    {
+                            "carrier": "MBTA",
+                            "departure_time": schedule.departure_time if schedule.departure_time else "---",
+                            "destination": schedule.stop_headsign, 
+                            "vehicle_id": "Not yet available", 
+                            "status": status,
+                            "has_prediction": False
+                        }
+                data.append(append_data)
+        data.sort(key=lambda predictionData: (predictionData["departure_time"]))
         return data
     
     def get(self, *args, **kwargs):
