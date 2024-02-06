@@ -3,10 +3,12 @@
 import os
 import sys
 
+from decouple import config
+
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'commuter_rail_departure.settings.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', f"commuter_rail_departure.settings.{config('DJANGO_SETTINGS_MODULE')}")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

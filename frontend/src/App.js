@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import StopSelector from "./components/LocationSelector"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
 import useStop from "./hooks/useStop";
 
@@ -12,7 +14,7 @@ function App() {
   async function getData(mbtaId){
       try{
         setLoading(true)
-        const departureData = await fetch(`http://localhost:8000/departures/api/${mbtaId}`)
+        const departureData = await fetch(`${process.env.REACT_APP_BASE_URL}/departures/api/${mbtaId}`)
         const departureJson = await departureData.json()
         setDepartures(departureJson)
         setLoading(false)
@@ -51,18 +53,27 @@ function App() {
                 </tr>
             </thead>
             <tbody>
-              {
-              loading ? <tr><td>Loading...</td></tr> :
-              departures.departures.length > 0 && departures.departures.map(departureArr =>(
-                <tr>
-                  {
-                    departureArr.map(val=>
-                      <td>{val}</td>
-                    )
-                  }
+              {loading ? (
+                <tr >
+                  <td colSpan="5" style={{ textAlign: 'center', verticalAlign: 'middle', fontSize: '20px', padding: '20px', display: 'flex'}}>
+                    <FontAwesomeIcon icon={faSpinner} spin /> Loading...
+                  </td>
                 </tr>
-              ))}
-              {!loading && departures.departures.length == 0 ? <tr><td>No commuter rails</td></tr> : null}
+              ) : (
+                departures.departures.length > 0 &&
+                departures.departures.map(departureArr => (
+                  <tr>
+                    {departureArr.map((val, index) => (
+                      <td key={index}>{val}</td>
+                    ))}
+                  </tr>
+                ))
+              )}
+              {!loading && departures.departures.length === 0 ? (
+                <tr>
+                  <td>No upcoming commuter rail stops.</td>
+                </tr>
+              ) : null}
             </tbody>
         </table>
     </div>
