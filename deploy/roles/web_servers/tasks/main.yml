@@ -1,0 +1,107 @@
+- name: remove current project dir
+  file:
+    path: "/applications/commuter_rail_departure/"
+    state: absent
+
+- name: make project dir
+  file:
+    path: "/applications/commuter_rail_departure/"
+    state: directory
+
+- name: make static dir
+  file:
+    path: "/applications/commuter_rail_departure/static/"
+    state: directory
+
+- name: make static dir
+  file:
+    path: "/applications/commuter_rail_departure_media/"
+    state: directory
+
+- name: unarchive project tar
+  unarchive:
+    src:  "/tmp/commuter_rail_departure.tar"
+    dest:  "/"
+    copy: True
+    list_files: True
+
+- name: install python3 and pip3
+  package:
+    name:
+      - python3-pip
+      - python-is-python3
+      - python3.10-venv
+
+- name: install postgresql
+  package:
+    name: 
+      - postgresql
+      - postgresql-contrib
+      - libpq-dev
+      - python3-psycopg2
+      - acl
+
+- name: create database
+  postgresql_db:
+    name:  "commuter_rail_departure"
+  become: true
+  become_user: postgres
+  when: deploy_env == 'int'
+
+- name: create postgresql user
+  postgresql_user:
+    name:  "commuter_rail_departure"
+    password: "db_password"
+    db:  "commuter_rail_departure"
+    expires: infinity
+  become: true
+  become_user: postgres
+  when: deploy_env == 'int'
+
+- name: Make manage.py executable
+  file:
+    path: /applications/commuter_rail_departure/manage.py
+    mode: 0777
+
+- name: migrate
+  django_manage:
+    command: migrate
+    app_path: "/applications/commuter_rail_departure/"
+    settings: "commuter_rail_departure.settings.{{ deploy_env }}"
+    virtualenv: "/applications/commuter_rail_departure/venv"
+
+- name: collect static
+  django_manage:
+    command: collectstatic
+    app_path: "/applications/commuter_rail_departure/"
+    settings: "commuter_rail_departure.settings.{{ deploy_env }}"
+    virtualenv: "/applications/commuter_rail_departure/venv"
+
+- name: install apache
+  package:
+    name: 
+      - apache2
+      - libapache2-mod-wsgi-py3
+    state: latest
+
+- name: copy apache config file
+  tags: apache,apache3,httpd
+  copy:
+    src: "{{ apache_config_filename }}"
+    dest: "/etc/apache2/sites-available/{{ apache_config_filename }}"
+    owner: root
+    group: root
+    mode: 0644
+  notify: restart_apache
+
+- name: Activate site
+  shell: "/usr/sbin/a2ensite {{ apache_config_filename }}"
+  notify: Reload Apache
+
+- name: start and enable apache service (Ubuntu)
+  tags: apache,httpd
+  service:
+    name: apache2
+    state: started
+    enabled: yes
+  when: ansible_distribution == "Ubuntu"
