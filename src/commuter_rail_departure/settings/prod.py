@@ -5,5 +5,6 @@ DEBUG = False
 ALLOWED_HOSTS = ["*"]
 
 CORS_ORIGIN_WHITELIST = [
-    'https://commuter-rail-departure-2hibgelyf-web3technologies.vercel.app'
+    'https://commuter-rail-departure.vercel.app',
+    "https://commuter-rail-departure-git-develop-web3technologies.vercel.app"
 ]
