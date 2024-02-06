@@ -7,7 +7,6 @@ router = routers.SimpleRouter()
 router.register(r"stop-names", StopReadOnlyViewSet)
 
 urlpatterns = [
-    path('test', DeparturesView.as_view(), name='template-departures'),
     path("api/<str:mbta_id>/", DeparturesApiView.as_view()),
     path("api/", DeparturesApiView.as_view())
 ]

@@ -1,0 +1,335 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "arrival_time": "2024-02-06T09:44:07-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-06T09:44:07-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-CR-627821-912-DB-2258-02-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "DB-2258-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627821-912",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1709",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-06T09:44:21-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-06T09:44:21-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 40
+            },
+            "id": "prediction-CR-627820-913-DB-2240-01-40",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "DB-2240-01",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627820-913",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1829",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-06T09:45:45-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-06T09:45:45-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 50
+            },
+            "id": "prediction-CR-627820-913-DB-2230-01-50",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "DB-2230-01",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627820-913",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1829",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-06T09:46:03-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-06T09:47:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 70
+            },
+            "id": "prediction-CR-627821-912-DB-2265-02-70",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "DB-2265-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627821-912",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1709",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-06T09:47:16-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-06T09:47:16-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-CR-627820-913-DB-2222-01-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "DB-2222-01",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627820-913",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1829",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-06T09:50:03-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-06T09:50:03-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 70
+            },
+            "id": "prediction-CR-627820-913-DB-2205-01-70",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "DB-2205-01",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627820-913",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1829",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-06T09:53:34-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 80
+            },
+            "id": "prediction-CR-627820-913-FB-0095-04-80",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "FB-0095-04",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627820-913",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1829",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-06T09:55:05-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 80
+            },
+            "id": "prediction-CR-627821-912-NEC-2287-80",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627821-912",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1709",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

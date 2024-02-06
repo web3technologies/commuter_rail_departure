@@ -44,11 +44,8 @@ function App() {
             <thead>
                 <tr>
                     <th>Carrier</th>
-                    <th>Current Location</th>
-                    <th>Arrival Time</th>
                     <th>Departure Time</th>
-                    <th>Scheduled Departure</th>
-                    <th>Final Destination</th>
+                    <th>Destination</th>
                     <th>Train</th>
                     <th>Status</th>
                 </tr>

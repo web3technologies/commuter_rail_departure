@@ -16,7 +16,6 @@ class DeparturesApiView(APIView):
         data = []
         routes = Route.objects.filter(type="2")
         trip_cache = {}
-        stop_cache = {}
         for route in routes:
             predictions = mbta_client.get_predictions(route.mbta_id, stop_id=stop_mbta_id)
             if not predictions:
@@ -47,22 +46,17 @@ class DeparturesApiView(APIView):
                         
                 if prediction.trip_id not in trip_cache:
                     trip_cache[prediction.trip_id] = mbta_client.get_trip(prediction.trip_id)
-                if prediction.stop_id not in stop_cache:
-                    stop_cache[prediction.stop_id] = Stop.objects.get(mbta_id=prediction.stop_id)
                 
                 data.append(
                     [
                         "MBTA",
-                        stop_cache[prediction.stop_id].name,
-                        prediction.arrival_time_str if prediction.arrival_time_str else "---", 
                         prediction.departure_time_str if prediction.departure_time_str else "---",
-                        scheduled_departure.departure_time_str if scheduled_departure else "---",
                         trip_cache[prediction.trip_id].headsign, 
                         prediction.vehicle_id, 
                         prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
                     ] 
                 )
-        data.sort(key=lambda predictionData: (predictionData[3]))
+        data.sort(key=lambda predictionData: (predictionData[1]))
         return data
     
     def get(self, *args, **kwargs):

@@ -13,7 +13,7 @@ export default function useStop(dataFunc){
           const stopRes = await fetch("http://localhost:8000/departures/stop-names/")
           const stopJson = await stopRes.json()
           stopJson.unshift( {
-              "name": "All",
+              "name": "All Stops",
               "mbta_id": ""
           })
           setStops(stopJson)
