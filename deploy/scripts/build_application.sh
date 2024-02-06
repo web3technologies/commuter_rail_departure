@@ -13,11 +13,6 @@ while getopts ":e:" opt; do
   esac
 done
 
-if [ -z "$environment" ]; then
-        echo 'Missing -e' >&2
-        exit 1
-fi
-
 rm -rf /applications/commuter_rail_departure/
 mkdir /applications/commuter_rail_departure/
 
