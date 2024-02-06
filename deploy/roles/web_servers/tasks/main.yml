@@ -46,17 +46,15 @@
     name:  "commuter_rail_departure"
   become: true
   become_user: postgres
-  when: deploy_env == 'int'
 
 - name: create postgresql user
   postgresql_user:
     name:  "commuter_rail_departure"
-    password: "db_password"
+    password: "{{ db_password }}"
     db:  "commuter_rail_departure"
     expires: infinity
   become: true
   become_user: postgres
-  when: deploy_env == 'int'
 
 - name: Make manage.py executable
   file:
