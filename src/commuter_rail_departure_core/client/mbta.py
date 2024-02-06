@@ -60,7 +60,7 @@ class MBTAClient:
         params = {'filter[route]': route_id}
         if stop_id:
             params["filter[stop]"] = stop_id
-        data = self._request('predictions', params)
+        data = self._request('schedules', params)
         schedules = [ScheduleData.from_dict(item) for item in data.get("data", [])]
         return schedules
 
@@ -69,7 +69,7 @@ class MBTAClient:
         return StopData.from_dict(data.get("data"))
     
     def get_stops(self) -> List[StopData]:
-        data = self._request(f"stops/")
+        data = self._request(f"stops")
         return [StopData.from_dict(obj) for obj in data.get("data")]
     
     def get_trip(self, trip_id:str) -> TripData:
