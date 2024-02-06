@@ -64,6 +64,6 @@ class DeparturesApiView(APIView):
         eastern = pytz.timezone('US/Eastern')
         eastern_time = datetime.now(eastern)
         return_data['departures'] = self.get_data(eastern_time, kwargs.get("mbta_id"))
-        return_data["eastern_date"] = eastern_time.strftime("%Y-%m-%d ")
+        return_data["eastern_date"] = eastern_time.strftime("%Y-%m-%d")
         return_data["eastern_time"] = eastern_time.strftime("%I:%M:%S %p")
         return Response(return_data, HTTP_200_OK)
