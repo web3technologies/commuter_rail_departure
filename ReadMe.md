@@ -2,6 +2,7 @@
 
 ## Description
 This is a simple Django application to display a commuter rail departure board.
+Frontend of the website can be found here: https://commuter-rail-departure.vercel.app/
 
 ## Important information
 -- if a prediction has been found to match the schedule, the has_prediction will be true and the frontend will display the text as blue
