@@ -72,7 +72,7 @@ class MBTAClient:
         data = self._request(f"trips/{trip_id}")
         return TripData.from_dict(data.get("data"))
     
-    def get_trips(self, route_ids:List|Set[str]) -> TripData:
+    def get_trips(self, route_ids:List|Set[str]) -> List[TripData]:
         params = {"filter[route]": ",".join(route_ids)}
         data = self._request(f"trips", params)
         return [TripData.from_dict(obj) for obj in data.get("data")]
@@ -80,6 +80,11 @@ class MBTAClient:
     def get_vehicle(self, vehicle_id:str) -> VehicleData:
         data = self._request(f"vehicles/{vehicle_id}")
         return VehicleData.from_dict(data.get("data"))
+    
+    def get_vehicles(self, route_type:str) -> List[VehicleData]:
+        params={"filter[route_type]": route_type}
+        data = self._request("vehicles", params)
+        return [VehicleData.from_dict(obj) for obj in data.get("data")]
 
 
 mbta_client = SimpleLazyObject(lambda: MBTAClient(settings.MBTA_KEY))

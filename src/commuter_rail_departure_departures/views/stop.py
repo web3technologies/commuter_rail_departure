@@ -33,6 +33,8 @@ class StopReadOnlyViewSet(ReadOnlyModelViewSet):
         trip_id_to_schedule_mapping = {(schedule.trip_id, schedule.stop_id): schedule for schedule in schedules if schedule.route_id in route_set} 
         trips = mbta_client.get_trips(route_set)
         trip_cache = {trip.id:trip for trip in trips}
+        vehicles = mbta_client.get_vehicles("2")
+        trip_id_to_vehicle_mapping = {vehicle.trip_id: vehicle for vehicle in vehicles}
         
         for _, schedule in trip_id_to_schedule_mapping.items():
             if not schedule.departure_time or eastern_time > schedule.departure_time:
@@ -56,7 +58,7 @@ class StopReadOnlyViewSet(ReadOnlyModelViewSet):
                         "departure_time": prediction.departure_time if prediction.departure_time else None,
                         "arrival_time": prediction.arrival_time if prediction.arrival_time else None,
                         "destination": trip_cache[schedule.trip_id].headsign, 
-                        "vehicle_id": prediction.vehicle_id, 
+                        "vehicle_id": trip_id_to_vehicle_mapping[prediction.trip_id].label if prediction.trip_id in trip_id_to_vehicle_mapping else None, 
                         "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
                         "has_prediction": True
                     }
@@ -70,7 +72,7 @@ class StopReadOnlyViewSet(ReadOnlyModelViewSet):
                         "departure_time": schedule.departure_time if schedule.departure_time else None,
                         "arrival_time": schedule.arrival_time if schedule.arrival_time else None,
                         "destination": trip_cache[schedule.trip_id].headsign, 
-                        "vehicle_id": "Not yet available", 
+                        "vehicle_id": trip_id_to_vehicle_mapping[schedule.trip_id].label if schedule.trip_id in trip_id_to_vehicle_mapping else None, 
                         "status": status,
                         "has_prediction": False
                     }
