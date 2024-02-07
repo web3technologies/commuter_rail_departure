@@ -14,12 +14,17 @@ def mock_mbta_client(monkeypatch):
             data = json.load(file)
             return data 
         
+    def __default_dict():
+        return {"data": [], "jsonapi": []}
+        
     def _request(self, endpoint: str, params:dict = None) -> dict:
         if endpoint == "predictions":
             if params["filter[stop]"] == "place-north":
                 file = "predictions-place-north.json"
             elif params["filter[stop]"] == "place-sstat":
                 file = "predictions-place-sstat.json"
+            else:
+                return __default_dict()
             return __return_dict(file)
         elif endpoint == "routes":
             return __return_dict("routes.json")
@@ -28,6 +33,8 @@ def mock_mbta_client(monkeypatch):
                 file = "schedules-place-north.json"
             elif params["filter[stop]"] == "place-sstat":
                 file = "schedules-place-sstat.json"
+            else:
+                return __default_dict()
             return __return_dict(file)
         elif endpoint == "stops":
             return __return_dict("stops.json")

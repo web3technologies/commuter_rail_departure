@@ -18,7 +18,7 @@ class TestStopReadOnlyViewset:
     client = APIClient()
 
     def test_list_stops(self, create_stop_and_route):
-
+        """List all available station stops. A station is the parent stop"""
         stops = Stop.stops.with_child_count().order_by("name")
         expected_res = StopSerializer(stops, many=True).data
         response = self.client.get(self.url)
@@ -27,6 +27,7 @@ class TestStopReadOnlyViewset:
         assert response.data == expected_res
     
     def test_retrieve_departure_arrival_data(self, mock_mbta_client, create_stop_and_route):
+        """Test to ensure that the data received is good data"""
         with open(f"{settings.TEST_DATA}arrival_data.json", "r") as file:
             expected_res_data = json.load(file)
         stop = Stop.objects.get(mbta_id="place-north")
@@ -51,7 +52,7 @@ class TestStopReadOnlyViewset:
         assert res.status_code == 200
         assert res.data.get("departures") == []
         
-        
     def test_retrieve_stop_does_not_exist(self, mock_mbta_client):
+        """Test to see if a bad stop is sent to the ednpoint ensure it will fail"""
         res = self.client.get(f"{self.url}invalid-mbta-id/")
         assert res.status_code == 404

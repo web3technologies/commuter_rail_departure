@@ -13,9 +13,8 @@ from commuter_rail_departure_departures.processor.departure_processor import Dep
 @pytest.mark.django_db
 class TestDepartureProcessor:
     
-    def test_processor_gets_good_data(self, mock_mbta_client):
-        Stop.stops.create_from_mbta_client()
-        Route.routes.create_from_mbta_client()
+    def test_processor_gets_good_data(self, mock_mbta_client, create_stop_and_route):
+        """Esnure the data produced by the processor is as expected"""
         stop = Stop.objects.get(mbta_id="place-sstat")
         moved_time = "2024-02-06 06:44:00"
         eastern = pytz.timezone('US/Eastern')
@@ -24,5 +23,19 @@ class TestDepartureProcessor:
             expected_res_data = json.load(file)
         with freeze_time(moved_time_dt) as freezer:
             eastern_time = datetime.now(eastern)
-            data = DepartureProcessor.process_data(stop.mbta_id, eastern_time)
+            processor = DepartureProcessor(stop.mbta_id, eastern_time)
+            data = processor.process_data()
         assert data == expected_res_data
+        
+        
+    def test_processor_receives_invalid_mbta_id(self, mock_mbta_client, create_stop_and_route):
+        """Ensure that if a bad id is passed and empty list will be returned"""
+        mbta_id="bad id"
+        moved_time = "2024-02-06 06:44:00"
+        eastern = pytz.timezone('US/Eastern')
+        moved_time_dt = eastern.localize(datetime.strptime(moved_time, "%Y-%m-%d %H:%M:%S"))
+        with freeze_time(moved_time_dt) as freezer:
+            eastern_time = datetime.now(eastern)
+            processor = DepartureProcessor(mbta_id, eastern_time)
+            data = processor.process_data()
+        assert data == []

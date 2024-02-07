@@ -20,7 +20,8 @@ class StopReadOnlyViewSet(ReadOnlyModelViewSet):
     def retrieve(self, request, *args, **kwargs):
         stop = get_object_or_404(Stop, mbta_id=kwargs.get("mbta_id"))
         eastern_time = datetime.now(self.eastern)
-        data = DepartureProcessor.process_data(stop.mbta_id, eastern_time)
+        processor = DepartureProcessor(stop.mbta_id, eastern_time)
+        data = processor.process_data()
         return_data = {
             "departures": data,
             "eastern_time": eastern_time.strftime("%I:%M:%S %p"),
