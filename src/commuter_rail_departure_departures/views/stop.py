@@ -5,7 +5,7 @@ from rest_framework.status import HTTP_200_OK
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from rest_framework.response import Response
 
-from commuter_rail_departure_departures.proccessor.departure_processor import DepartureProcessor
+from commuter_rail_departure_departures.processor.departure_processor import DepartureProcessor
 from commuter_rail_departure_departures.models import Stop
 from commuter_rail_departure_departures.serializer import StopSerializer
 
