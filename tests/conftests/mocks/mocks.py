@@ -31,8 +31,10 @@ def mock_mbta_client(monkeypatch):
             return __return_dict(file)
         elif endpoint == "stops":
             return __return_dict("stops.json")
-        elif "trip" in endpoint:
-            return __return_dict("trip.json")
+        elif endpoint == "trips":
+            return __return_dict("trips.json")
+        elif endpoint == "vehicles":
+            return __return_dict("vehicles.json")
         else:
             raise Exception("Invalid mock endpoint")
             

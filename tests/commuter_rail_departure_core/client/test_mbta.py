@@ -3,7 +3,7 @@ import json
 
 from django.conf import settings
 
-from commuter_rail_departure_departures.models import Stop
+from commuter_rail_departure_departures.models import Stop, Route
 
 from commuter_rail_departure_core.client import mbta_client
 from commuter_rail_departure_core.types import (
@@ -16,7 +16,7 @@ from commuter_rail_departure_core.types import (
 ) 
 
 
-@pytest.mark.usefixtures("mock_mbta_client") 
+@pytest.mark.django_db
 class TestMbtaClient:
     
     def test_get_schedule_data(self, mock_mbta_client):
@@ -59,11 +59,14 @@ class TestMbtaClient:
         for stop in stops:
             assert isinstance(stop, StopData), "Stop object is not an instance of StopData"
             
-    def test_get_trip_data(self, mock_mbta_client):
-        trip = mbta_client.get_trip("1")
-        with open(f"{settings.MOCK_DATA}trip.json", "r") as file:
+    def test_get_trips_data(self, mock_mbta_client):
+        Route.routes.create_from_mbta_client()
+        routes = Route.objects.filter(type=2)
+        route_set = set(routes.values_list("mbta_id", flat=True))
+        trips = mbta_client.get_trips(route_set)
+        with open(f"{settings.MOCK_DATA}trips.json", "r") as file:
             data = json.load(file)
         
-        trip_0bj = TripData.from_dict(data.get("data"))
-        assert isinstance(trip, TripData), "Stop object is not an instance of StopData"
-        assert trip_0bj.id == trip.id
+        assert len(trips) == len(data.get("data")), "The number of trips does not match"
+        for trip in trips:
+            assert isinstance(trip, TripData), "Trip object is not an instance of TripData"

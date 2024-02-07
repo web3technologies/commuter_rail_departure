@@ -68,10 +68,6 @@ class MBTAClient:
         data = self._request(f"stops")
         return [StopData.from_dict(obj) for obj in data.get("data")]
     
-    def get_trip(self, trip_id:str) -> TripData:
-        data = self._request(f"trips/{trip_id}")
-        return TripData.from_dict(data.get("data"))
-    
     def get_trips(self, route_ids:List|Set[str]) -> List[TripData]:
         params = {"filter[route]": ",".join(route_ids)}
         data = self._request(f"trips", params)
