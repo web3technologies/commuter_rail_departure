@@ -1,0 +1,5593 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "198",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649255-198",
+            "links": {
+                "self": "/trips/CR-649255-198"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-f5cebd1b-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "113",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649257-113",
+            "links": {
+                "self": "/trips/CR-649257-113"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-5967b204-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Beverly",
+                "name": "197",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649259-197",
+            "links": {
+                "self": "/trips/CR-649259-197"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-9b0217f4-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "118",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649260-118",
+            "links": {
+                "self": "/trips/CR-649260-118"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-05eb9eab-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "102",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649262-102",
+            "links": {
+                "self": "/trips/CR-649262-102"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-05eb9eab-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "159",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649264-159",
+            "links": {
+                "self": "/trips/CR-649264-159"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-8a970322-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "104",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649265-104",
+            "links": {
+                "self": "/trips/CR-649265-104"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-05eb9eab-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "161",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649270-161",
+            "links": {
+                "self": "/trips/CR-649270-161"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-8a970322-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "106",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649271-106",
+            "links": {
+                "self": "/trips/CR-649271-106"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "160",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649272-160",
+            "links": {
+                "self": "/trips/CR-649272-160"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e6060026-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "165",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649275-165",
+            "links": {
+                "self": "/trips/CR-649275-165"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "154",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649277-154",
+            "links": {
+                "self": "/trips/CR-649277-154"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "151",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649278-151",
+            "links": {
+                "self": "/trips/CR-649278-151"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "150",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649279-150",
+            "links": {
+                "self": "/trips/CR-649279-150"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "156",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649280-156",
+            "links": {
+                "self": "/trips/CR-649280-156"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e6060026-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "157",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649281-157",
+            "links": {
+                "self": "/trips/CR-649281-157"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "147",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649283-147",
+            "links": {
+                "self": "/trips/CR-649283-147"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "123",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649284-123",
+            "links": {
+                "self": "/trips/CR-649284-123"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "164",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649285-164",
+            "links": {
+                "self": "/trips/CR-649285-164"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e6060026-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "122",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649286-122",
+            "links": {
+                "self": "/trips/CR-649286-122"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "116",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649288-116",
+            "links": {
+                "self": "/trips/CR-649288-116"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-05eb9eab-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "149",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649289-149",
+            "links": {
+                "self": "/trips/CR-649289-149"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "143",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649290-143",
+            "links": {
+                "self": "/trips/CR-649290-143"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-8a970322-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "158",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649291-158",
+            "links": {
+                "self": "/trips/CR-649291-158"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e6060026-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "140",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649292-140",
+            "links": {
+                "self": "/trips/CR-649292-140"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e6060026-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "115",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649293-115",
+            "links": {
+                "self": "/trips/CR-649293-115"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-5967b204-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "141",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649294-141",
+            "links": {
+                "self": "/trips/CR-649294-141"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-8a970322-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "142",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649296-142",
+            "links": {
+                "self": "/trips/CR-649296-142"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e6060026-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "108",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649297-108",
+            "links": {
+                "self": "/trips/CR-649297-108"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "119",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649298-119",
+            "links": {
+                "self": "/trips/CR-649298-119"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "111",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649299-111",
+            "links": {
+                "self": "/trips/CR-649299-111"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-5967b204-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "127",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649300-127",
+            "links": {
+                "self": "/trips/CR-649300-127"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-5967b204-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "125",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649301-125",
+            "links": {
+                "self": "/trips/CR-649301-125"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-5967b204-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "107",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649302-107",
+            "links": {
+                "self": "/trips/CR-649302-107"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "112",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649303-112",
+            "links": {
+                "self": "/trips/CR-649303-112"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "126",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649304-126",
+            "links": {
+                "self": "/trips/CR-649304-126"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-05eb9eab-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Beverly",
+                "name": "191",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649305-191",
+            "links": {
+                "self": "/trips/CR-649305-191"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-9b0217f4-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "167",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649306-167",
+            "links": {
+                "self": "/trips/CR-649306-167"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-8ac7b3db-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "192",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649307-192",
+            "links": {
+                "self": "/trips/CR-649307-192"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7bd69ec3-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "100",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649308-100",
+            "links": {
+                "self": "/trips/CR-649308-100"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-05eb9eab-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "146",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649309-146",
+            "links": {
+                "self": "/trips/CR-649309-146"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e6060026-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "145",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649310-145",
+            "links": {
+                "self": "/trips/CR-649310-145"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "163",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649311-163",
+            "links": {
+                "self": "/trips/CR-649311-163"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "162",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649312-162",
+            "links": {
+                "self": "/trips/CR-649312-162"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e6060026-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "155",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649313-155",
+            "links": {
+                "self": "/trips/CR-649313-155"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-8a970322-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "114",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649318-114",
+            "links": {
+                "self": "/trips/CR-649318-114"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-05eb9eab-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "105",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649322-105",
+            "links": {
+                "self": "/trips/CR-649322-105"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "101",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649324-101",
+            "links": {
+                "self": "/trips/CR-649324-101"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-5967b204-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "153",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649327-153",
+            "links": {
+                "self": "/trips/CR-649327-153"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-8a970322-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "152",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649328-152",
+            "links": {
+                "self": "/trips/CR-649328-152"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "148",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649329-148",
+            "links": {
+                "self": "/trips/CR-649329-148"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "120",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649332-120",
+            "links": {
+                "self": "/trips/CR-649332-120"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-05eb9eab-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "117",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649333-117",
+            "links": {
+                "self": "/trips/CR-649333-117"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-5967b204-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 2,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "144",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649334-144",
+            "links": {
+                "self": "/trips/CR-649334-144"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "124",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649335-124",
+            "links": {
+                "self": "/trips/CR-649335-124"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "121",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649336-121",
+            "links": {
+                "self": "/trips/CR-649336-121"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-5967b204-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "110",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649337-110",
+            "links": {
+                "self": "/trips/CR-649337-110"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "109",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649338-109",
+            "links": {
+                "self": "/trips/CR-649338-109"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "103",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649341-103",
+            "links": {
+                "self": "/trips/CR-649341-103"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-dd9f791d-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHWKD-Weekday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "1167",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649342-1167",
+            "links": {
+                "self": "/trips/CR-649342-1167"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1108",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649346-1108",
+            "links": {
+                "self": "/trips/CR-649346-1108"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "1117",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649347-1117",
+            "links": {
+                "self": "/trips/CR-649347-1117"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "1107",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649348-1107",
+            "links": {
+                "self": "/trips/CR-649348-1107"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1116",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649349-1116",
+            "links": {
+                "self": "/trips/CR-649349-1116"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "1161",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649350-1161",
+            "links": {
+                "self": "/trips/CR-649350-1161"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "1115",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649351-1115",
+            "links": {
+                "self": "/trips/CR-649351-1115"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1160",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649352-1160",
+            "links": {
+                "self": "/trips/CR-649352-1160"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "1165",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649353-1165",
+            "links": {
+                "self": "/trips/CR-649353-1165"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1166",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649354-1166",
+            "links": {
+                "self": "/trips/CR-649354-1166"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1102",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649355-1102",
+            "links": {
+                "self": "/trips/CR-649355-1102"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "1103",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649356-1103",
+            "links": {
+                "self": "/trips/CR-649356-1103"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "1157",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649357-1157",
+            "links": {
+                "self": "/trips/CR-649357-1157"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "1155",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649358-1155",
+            "links": {
+                "self": "/trips/CR-649358-1155"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "1153",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649359-1153",
+            "links": {
+                "self": "/trips/CR-649359-1153"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1150",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649360-1150",
+            "links": {
+                "self": "/trips/CR-649360-1150"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1164",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649361-1164",
+            "links": {
+                "self": "/trips/CR-649361-1164"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "1109",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649362-1109",
+            "links": {
+                "self": "/trips/CR-649362-1109"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1110",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649363-1110",
+            "links": {
+                "self": "/trips/CR-649363-1110"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "1163",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649366-1163",
+            "links": {
+                "self": "/trips/CR-649366-1163"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1162",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649367-1162",
+            "links": {
+                "self": "/trips/CR-649367-1162"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1106",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649368-1106",
+            "links": {
+                "self": "/trips/CR-649368-1106"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1104",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649369-1104",
+            "links": {
+                "self": "/trips/CR-649369-1104"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1114",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649370-1114",
+            "links": {
+                "self": "/trips/CR-649370-1114"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1112",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649371-1112",
+            "links": {
+                "self": "/trips/CR-649371-1112"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "1159",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649372-1159",
+            "links": {
+                "self": "/trips/CR-649372-1159"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1158",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649373-1158",
+            "links": {
+                "self": "/trips/CR-649373-1158"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1100",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649376-1100",
+            "links": {
+                "self": "/trips/CR-649376-1100"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1154",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649379-1154",
+            "links": {
+                "self": "/trips/CR-649379-1154"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1156",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649381-1156",
+            "links": {
+                "self": "/trips/CR-649381-1156"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "1113",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649382-1113",
+            "links": {
+                "self": "/trips/CR-649382-1113"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "1111",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649383-1111",
+            "links": {
+                "self": "/trips/CR-649383-1111"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "1105",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649384-1105",
+            "links": {
+                "self": "/trips/CR-649384-1105"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "1101",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649385-1101",
+            "links": {
+                "self": "/trips/CR-649385-1101"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "1152",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649386-1152",
+            "links": {
+                "self": "/trips/CR-649386-1152"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSAT-Saturday-12-S9f",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "2167",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649390-2167",
+            "links": {
+                "self": "/trips/CR-649390-2167"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2166",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649391-2166",
+            "links": {
+                "self": "/trips/CR-649391-2166"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2100",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649392-2100",
+            "links": {
+                "self": "/trips/CR-649392-2100"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "2101",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649393-2101",
+            "links": {
+                "self": "/trips/CR-649393-2101"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "2113",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649394-2113",
+            "links": {
+                "self": "/trips/CR-649394-2113"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "2115",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649395-2115",
+            "links": {
+                "self": "/trips/CR-649395-2115"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "2163",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649396-2163",
+            "links": {
+                "self": "/trips/CR-649396-2163"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2162",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649397-2162",
+            "links": {
+                "self": "/trips/CR-649397-2162"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "2105",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649398-2105",
+            "links": {
+                "self": "/trips/CR-649398-2105"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2106",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649399-2106",
+            "links": {
+                "self": "/trips/CR-649399-2106"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "2107",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649400-2107",
+            "links": {
+                "self": "/trips/CR-649400-2107"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "2111",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649401-2111",
+            "links": {
+                "self": "/trips/CR-649401-2111"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "2159",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649402-2159",
+            "links": {
+                "self": "/trips/CR-649402-2159"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "2157",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649403-2157",
+            "links": {
+                "self": "/trips/CR-649403-2157"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "2155",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649404-2155",
+            "links": {
+                "self": "/trips/CR-649404-2155"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "2153",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649405-2153",
+            "links": {
+                "self": "/trips/CR-649405-2153"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2152",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649406-2152",
+            "links": {
+                "self": "/trips/CR-649406-2152"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2108",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649407-2108",
+            "links": {
+                "self": "/trips/CR-649407-2108"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2112",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649408-2112",
+            "links": {
+                "self": "/trips/CR-649408-2112"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "2165",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649411-2165",
+            "links": {
+                "self": "/trips/CR-649411-2165"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2164",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649412-2164",
+            "links": {
+                "self": "/trips/CR-649412-2164"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2102",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649413-2102",
+            "links": {
+                "self": "/trips/CR-649413-2102"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "2103",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649414-2103",
+            "links": {
+                "self": "/trips/CR-649414-2103"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2116",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649415-2116",
+            "links": {
+                "self": "/trips/CR-649415-2116"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "2117",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649416-2117",
+            "links": {
+                "self": "/trips/CR-649416-2117"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "2161",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649417-2161",
+            "links": {
+                "self": "/trips/CR-649417-2161"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-79533330-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2160",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649418-2160",
+            "links": {
+                "self": "/trips/CR-649418-2160"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "2109",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649421-2109",
+            "links": {
+                "self": "/trips/CR-649421-2109"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e54dc640-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2154",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649422-2154",
+            "links": {
+                "self": "/trips/CR-649422-2154"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2110",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649423-2110",
+            "links": {
+                "self": "/trips/CR-649423-2110"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2158",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649425-2158",
+            "links": {
+                "self": "/trips/CR-649425-2158"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2150",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649426-2150",
+            "links": {
+                "self": "/trips/CR-649426-2150"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2114",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649427-2114",
+            "links": {
+                "self": "/trips/CR-649427-2114"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2104",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649428-2104",
+            "links": {
+                "self": "/trips/CR-649428-2104"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-d47c5647-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 1,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "2156",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "CR-649431-2156",
+            "links": {
+                "self": "/trips/CR-649431-2156"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-7e4857df-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "FALL 2023-NORTHSUN-Sunday-12-S9d378dcf",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 0,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Newburyport",
+                "name": "C141",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "canonical-CR-Newburyport-C1-0",
+            "links": {
+                "self": "/trips/canonical-CR-Newburyport-C1-0"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-8a970322-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "canonical",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "canonical-9810002",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 0,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "C140",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "canonical-CR-Newburyport-C1-1",
+            "links": {
+                "self": "/trips/canonical-CR-Newburyport-C1-1"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-e6060026-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "canonical",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "canonical-9810001",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 0,
+                "block_id": "",
+                "direction_id": 0,
+                "headsign": "Rockport",
+                "name": "C101",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "canonical-CR-Newburyport-C2-0",
+            "links": {
+                "self": "/trips/canonical-CR-Newburyport-C2-0"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-5967b204-0",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "canonical",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "canonical-9810007",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        },
+        {
+            "attributes": {
+                "bikes_allowed": 0,
+                "block_id": "",
+                "direction_id": 1,
+                "headsign": "North Station",
+                "name": "C100",
+                "revenue": "REVENUE",
+                "wheelchair_accessible": 1
+            },
+            "id": "canonical-CR-Newburyport-C2-1",
+            "links": {
+                "self": "/trips/canonical-CR-Newburyport-C2-1"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "route_pattern": {
+                    "data": {
+                        "id": "CR-Newburyport-05eb9eab-1",
+                        "type": "route_pattern"
+                    }
+                },
+                "service": {
+                    "data": {
+                        "id": "canonical",
+                        "type": "service"
+                    }
+                },
+                "shape": {
+                    "data": {
+                        "id": "canonical-9810006",
+                        "type": "shape"
+                    }
+                }
+            },
+            "type": "trip"
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

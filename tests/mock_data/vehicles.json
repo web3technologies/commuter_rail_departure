@@ -1,0 +1,1647 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "bearing": 15,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 40,
+                "direction_id": 1,
+                "label": "1831",
+                "latitude": 41.8599967956543,
+                "longitude": -71.40572357177734,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 26.8,
+                "updated_at": "2024-02-07T07:40:00-05:00"
+            },
+            "id": "1831",
+            "links": {
+                "self": "/vehicles/1831"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-1891-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651484-810",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 320,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 80,
+                "direction_id": 1,
+                "label": "1812",
+                "latitude": 42.299373626708984,
+                "longitude": -71.053955078125,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 24.6,
+                "updated_at": "2024-02-07T07:40:15-05:00"
+            },
+            "id": "1812",
+            "links": {
+                "self": "/vehicles/1812"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Middleborough",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "MM-0023-S",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628116-006",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 37,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 40,
+                "direction_id": 1,
+                "label": "1842",
+                "latitude": 42.2217903137207,
+                "longitude": -71.18331909179688,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:40:18-05:00"
+            },
+            "id": "1842",
+            "links": {
+                "self": "/vehicles/1842"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Franklin",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "FB-0125-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651128-742",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 223,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 90,
+                "direction_id": 0,
+                "label": "1848",
+                "latitude": 41.82938003540039,
+                "longitude": -71.41316223144531,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:39:55-05:00"
+            },
+            "id": "1848",
+            "links": {
+                "self": "/vehicles/1848"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-1851-03",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651106-803",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 40,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 130,
+                "direction_id": 1,
+                "label": "1843",
+                "latitude": 42.34635925292969,
+                "longitude": -71.05815887451172,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 3.1,
+                "updated_at": "2024-02-07T07:40:04-05:00"
+            },
+            "id": "1843",
+            "links": {
+                "self": "/vehicles/1843"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Franklin",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651466-704",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 225,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 60,
+                "direction_id": 0,
+                "label": "1840",
+                "latitude": 42.30479049682617,
+                "longitude": -71.28376007080078,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 20.6,
+                "updated_at": "2024-02-07T07:40:12-05:00"
+            },
+            "id": "1840",
+            "links": {
+                "self": "/vehicles/1840"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Worcester",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "WML-0147-01",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-643510-585-1",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 19,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 40,
+                "direction_id": 1,
+                "label": "1715",
+                "latitude": 42.25436019897461,
+                "longitude": -71.12583923339844,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:40:00-05:00"
+            },
+            "id": "1715",
+            "links": {
+                "self": "/vehicles/1715"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2203-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651491-864",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 307,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 150,
+                "direction_id": 0,
+                "label": "1647",
+                "latitude": 42.563995361328125,
+                "longitude": -71.76026153564453,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 25.9,
+                "updated_at": "2024-02-07T07:39:53-05:00"
+            },
+            "id": "1647",
+            "links": {
+                "self": "/vehicles/1647"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fitchburg",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "FR-0494-CS",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "WedSki651573-403",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 138,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 20,
+                "direction_id": 1,
+                "label": "1708",
+                "latitude": 42.590999603271484,
+                "longitude": -71.27925872802734,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 13.4,
+                "updated_at": "2024-02-07T07:40:03-05:00"
+            },
+            "id": "1708",
+            "links": {
+                "self": "/vehicles/1708"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Lowell",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NHRML-0152-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627689-308",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 62,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 20,
+                "direction_id": 1,
+                "label": "1827",
+                "latitude": 42.12000274658203,
+                "longitude": -71.32684326171875,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:40:11-05:00"
+            },
+            "id": "1827",
+            "links": {
+                "self": "/vehicles/1827"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Franklin",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "FB-0230-S",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651481-706",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 237,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 80,
+                "direction_id": 1,
+                "label": "1630",
+                "latitude": 42.46505355834961,
+                "longitude": -70.94092559814453,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 8.9,
+                "updated_at": "2024-02-07T07:40:14-05:00"
+            },
+            "id": "1630",
+            "links": {
+                "self": "/vehicles/1630"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "ER-0117-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-649334-144",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 55,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 80,
+                "direction_id": 1,
+                "label": "1632",
+                "latitude": 42.377540588378906,
+                "longitude": -71.22420501708984,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 24.6,
+                "updated_at": "2024-02-07T07:40:03-05:00"
+            },
+            "id": "1632",
+            "links": {
+                "self": "/vehicles/1632"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fitchburg",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "FR-0074-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "WedSki651600-482",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 205,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 80,
+                "direction_id": 0,
+                "label": "1846",
+                "latitude": 42.24147415161133,
+                "longitude": -71.12960052490234,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 8.9,
+                "updated_at": "2024-02-07T07:40:05-05:00"
+            },
+            "id": "1846",
+            "links": {
+                "self": "/vehicles/1846"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "FB-0095-04",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627826-907",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 42,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 80,
+                "direction_id": 1,
+                "label": "1809",
+                "latitude": 42.338829040527344,
+                "longitude": -71.0866928100586,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:39:54-05:00"
+            },
+            "id": "1809",
+            "links": {
+                "self": "/vehicles/1809"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2276-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651103-806",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 79,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 30,
+                "direction_id": 1,
+                "label": "1636",
+                "latitude": 42.54515075683594,
+                "longitude": -71.64791107177734,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:40:08-05:00"
+            },
+            "id": "1636",
+            "links": {
+                "self": "/vehicles/1636"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fitchburg",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "FR-0394-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "WedSki651576-406",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 325,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 0,
+                "direction_id": 1,
+                "label": "1844",
+                "latitude": 41.87883758544922,
+                "longitude": -70.91891479492188,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:40:13-05:00"
+            },
+            "id": "1844",
+            "links": {
+                "self": "/vehicles/1844"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Middleborough",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "MM-0356-S",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628114-008",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 304,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 20,
+                "direction_id": 1,
+                "label": "1815",
+                "latitude": 42.03946304321289,
+                "longitude": -70.87322998046875,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 22.8,
+                "updated_at": "2024-02-07T07:39:51-05:00"
+            },
+            "id": "1815",
+            "links": {
+                "self": "/vehicles/1815"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Kingston",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "PB-0245-S",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628088-044",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 318,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 10,
+                "direction_id": 0,
+                "label": "1717",
+                "latitude": 42.37698745727539,
+                "longitude": -71.07542419433594,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 4.0,
+                "updated_at": "2024-02-07T07:40:06-05:00"
+            },
+            "id": "1717",
+            "links": {
+                "self": "/vehicles/1717"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "ER-0042-01",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-649290-143",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 329,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 60,
+                "direction_id": 0,
+                "label": "1638",
+                "latitude": 42.61602020263672,
+                "longitude": -71.29044342041016,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 12.1,
+                "updated_at": "2024-02-07T07:40:12-05:00"
+            },
+            "id": "1638",
+            "links": {
+                "self": "/vehicles/1638"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Lowell",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NHRML-0254-04",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-632768-307",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 269,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 20,
+                "direction_id": 0,
+                "label": "1839",
+                "latitude": 42.34762954711914,
+                "longitude": -71.09356689453125,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 10.7,
+                "updated_at": "2024-02-07T07:40:08-05:00"
+            },
+            "id": "1839",
+            "links": {
+                "self": "/vehicles/1839"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Worcester",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "WML-0025-07",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628032-507-1",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 74,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 30,
+                "direction_id": 1,
+                "label": "1709",
+                "latitude": 42.295711517333984,
+                "longitude": -71.31561279296875,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 24.1,
+                "updated_at": "2024-02-07T07:40:09-05:00"
+            },
+            "id": "1709",
+            "links": {
+                "self": "/vehicles/1709"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Worcester",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "WML-0147-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-643509-584-1",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 322,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 0,
+                "direction_id": 0,
+                "label": "1724",
+                "latitude": 42.366397857666016,
+                "longitude": -71.06248474121094,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:40:03-05:00"
+            },
+            "id": "1724",
+            "links": {
+                "self": "/vehicles/1724"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Lowell",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-632752-309",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 218,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 30,
+                "direction_id": 1,
+                "label": "1713",
+                "latitude": 42.60358428955078,
+                "longitude": -70.71550750732422,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 21.9,
+                "updated_at": "2024-02-07T07:40:16-05:00"
+            },
+            "id": "1713",
+            "links": {
+                "self": "/vehicles/1713"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "GB-0254-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-649265-104",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 26,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 90,
+                "direction_id": 1,
+                "label": "1705",
+                "latitude": 42.34965133666992,
+                "longitude": -71.05602264404297,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:40:11-05:00"
+            },
+            "id": "1705",
+            "links": {
+                "self": "/vehicles/1705"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Kingston",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628090-042",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 32,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 90,
+                "direction_id": 1,
+                "label": "1711",
+                "latitude": 42.33050537109375,
+                "longitude": -71.09622192382812,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 24.1,
+                "updated_at": "2024-02-07T07:40:01-05:00"
+            },
+            "id": "1711",
+            "links": {
+                "self": "/vehicles/1711"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Needham",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2265-03",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651186-604",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 230,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 80,
+                "direction_id": 0,
+                "label": "1841",
+                "latitude": 42.266807556152344,
+                "longitude": -71.65382385253906,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 16.5,
+                "updated_at": "2024-02-07T07:40:13-05:00"
+            },
+            "id": "1841",
+            "links": {
+                "self": "/vehicles/1841"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Worcester",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "WML-0364-01",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628034-505-1",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 141,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 20,
+                "direction_id": 0,
+                "label": "1808",
+                "latitude": 42.26710510253906,
+                "longitude": -71.02127075195312,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 24.1,
+                "updated_at": "2024-02-07T07:40:11-05:00"
+            },
+            "id": "1808",
+            "links": {
+                "self": "/vehicles/1808"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Middleborough",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "MM-0079-S",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628117-005",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 26,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 80,
+                "direction_id": 1,
+                "label": "1802",
+                "latitude": 42.346675872802734,
+                "longitude": -71.05760192871094,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 4.9,
+                "updated_at": "2024-02-07T07:39:51-05:00"
+            },
+            "id": "1802",
+            "links": {
+                "self": "/vehicles/1802"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627827-906",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 227,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 30,
+                "direction_id": 0,
+                "label": "1801",
+                "latitude": 42.237186431884766,
+                "longitude": -71.13517761230469,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 12.5,
+                "updated_at": "2024-02-07T07:40:15-05:00"
+            },
+            "id": "1801",
+            "links": {
+                "self": "/vehicles/1801"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Franklin",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "FB-0095-05",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651127-743",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 143,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 60,
+                "direction_id": 1,
+                "label": "1704",
+                "latitude": 42.36748123168945,
+                "longitude": -71.0635757446289,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 4.9,
+                "updated_at": "2024-02-07T07:40:03-05:00"
+            },
+            "id": "1704",
+            "links": {
+                "self": "/vehicles/1704"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Lowell",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627687-306",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 149,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 30,
+                "direction_id": 1,
+                "label": "1720",
+                "latitude": 42.68907165527344,
+                "longitude": -71.15653228759766,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 15.6,
+                "updated_at": "2024-02-07T07:40:13-05:00"
+            },
+            "id": "1720",
+            "links": {
+                "self": "/vehicles/1720"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Haverhill",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "WR-0228-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627642-204",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 296,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 10,
+                "direction_id": 0,
+                "label": "1640",
+                "latitude": 42.381744384765625,
+                "longitude": -71.10730743408203,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 25.5,
+                "updated_at": "2024-02-07T07:40:05-05:00"
+            },
+            "id": "1640",
+            "links": {
+                "self": "/vehicles/1640"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fitchburg",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "FR-0034-01",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "WedSki651575-405",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 268,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 60,
+                "direction_id": 1,
+                "label": "1850",
+                "latitude": 42.22137451171875,
+                "longitude": -70.9692153930664,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:40:08-05:00"
+            },
+            "id": "1850",
+            "links": {
+                "self": "/vehicles/1850"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Greenbush",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "GRB-0118-S",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628061-074",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 221,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 30,
+                "direction_id": 0,
+                "label": "1837",
+                "latitude": 42.333763122558594,
+                "longitude": -71.09254455566406,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 16.5,
+                "updated_at": "2024-02-07T07:40:07-05:00"
+            },
+            "id": "1837",
+            "links": {
+                "self": "/vehicles/1837"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2173-01",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651104-805",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 107,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 80,
+                "direction_id": 1,
+                "label": "1830",
+                "latitude": 42.354549407958984,
+                "longitude": -71.11988830566406,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 20.1,
+                "updated_at": "2024-02-07T07:40:01-05:00"
+            },
+            "id": "1830",
+            "links": {
+                "self": "/vehicles/1830"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Worcester",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "WML-0025-05",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628033-506-1",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 9,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 20,
+                "direction_id": 0,
+                "label": "1712",
+                "latitude": 42.43427276611328,
+                "longitude": -71.07137298583984,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 16.1,
+                "updated_at": "2024-02-07T07:40:13-05:00"
+            },
+            "id": "1712",
+            "links": {
+                "self": "/vehicles/1712"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Haverhill",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "WR-0053-S",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627666-283",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 27,
+                "carriages": [],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": 30,
+                "direction_id": 1,
+                "label": "1849",
+                "latitude": 41.95797348022461,
+                "longitude": -71.27294921875,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 16.5,
+                "updated_at": "2024-02-07T07:40:20-05:00"
+            },
+            "id": "1849",
+            "links": {
+                "self": "/vehicles/1849"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2040-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651101-808",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 76,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 30,
+                "direction_id": 1,
+                "label": "1822",
+                "latitude": 42.26716995239258,
+                "longitude": -71.52356719970703,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:40:11-05:00"
+            },
+            "id": "1822",
+            "links": {
+                "self": "/vehicles/1822"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Worcester",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "WML-0274-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628031-508-1",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 147,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 10,
+                "direction_id": 1,
+                "label": "1706",
+                "latitude": 42.501224517822266,
+                "longitude": -71.0748291015625,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 2.7,
+                "updated_at": "2024-02-07T07:40:19-05:00"
+            },
+            "id": "1706",
+            "links": {
+                "self": "/vehicles/1706"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Haverhill",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "WR-0099-02",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627665-282",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 40,
+                "carriages": [],
+                "current_status": "STOPPED_AT",
+                "current_stop_sequence": 100,
+                "direction_id": 0,
+                "label": "1722",
+                "latitude": 42.61199951171875,
+                "longitude": -70.70539093017578,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2024-02-07T07:40:20-05:00"
+            },
+            "id": "1722",
+            "links": {
+                "self": "/vehicles/1722"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "GB-0296-01",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-649324-101",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

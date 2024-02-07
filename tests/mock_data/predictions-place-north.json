@@ -1,0 +1,1849 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:35:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": "All aboard",
+                "stop_sequence": 0
+            },
+            "id": "prediction-CR-649290-143-BNT-0000-03-0",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000-03",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-649290-143",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": null
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:35:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": "All aboard",
+                "stop_sequence": 0
+            },
+            "id": "prediction-CR-632752-309-BNT-0000-06-0",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Lowell",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000-06",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-632752-309",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1724",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:25:38-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:26:23-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-60564896-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-E",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60564896",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10114",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:30:08-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:31:03-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 20
+            },
+            "id": "prediction-60564618-70206-20",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-D",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70206",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60564618",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10056",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:30:48-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:31:38-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-60564920-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-E",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60564920",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10120",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:32:11-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:33:14-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 20
+            },
+            "id": "prediction-60564805-70206-20",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-E",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70206",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60564805",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10051",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:36:54-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:37:38-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-ADDED-1581777797-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-D",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "ADDED-1581777797",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10142",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:37:57-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 80
+            },
+            "id": "prediction-WedSki651574-404-BNT-0000-80",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fitchburg",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "WedSki651574-404",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1718",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:38:21-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:39:05-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-ADDED-1581777803-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-E",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "ADDED-1581777803",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10161",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:39:03-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-CR-627687-306-BNT-0000-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Lowell",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627687-306",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1704",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:39:50-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:40:02-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 20
+            },
+            "id": "prediction-60564821-70206-20",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-E",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70206",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60564821",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10082",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:40:10-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:40:56-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60455500-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455500",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA453",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:40:23-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:41:14-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-60455376-70026-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70026",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455376",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA8E4",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:44:00-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:44:44-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-ADDED-1581777792-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-D",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "ADDED-1581777792",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10154",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:44:44-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:45:30-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60455501-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455501",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA458",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:44:54-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:45:38-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-60564969-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-E",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60564969",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10053",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:48:06-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:48:57-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-60455377-70026-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70026",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455377",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA8E3",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:48:31-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:49:15-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-ADDED-1581777802-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-D",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "ADDED-1581777802",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10160",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:52:20-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:53:06-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60455502-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455502",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA456",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:55:47-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:56:31-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-60564611-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-D",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60564611",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10162",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:55:52-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:56:36-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-ADDED-1581777801-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-D",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "ADDED-1581777801",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10158",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:56:07-05:00",
+                "arrival_uncertainty": 120,
+                "departure_time": "2024-02-07T07:56:58-05:00",
+                "departure_uncertainty": 120,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-60455378-70026-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70026",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455378",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA8E2",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:59:36-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 100
+            },
+            "id": "prediction-CR-649334-144-BNT-0000-100",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-649334-144",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1630",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:00:02-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 110
+            },
+            "id": "prediction-WedSki651600-482-BNT-0000-110",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fitchburg",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "WedSki651600-482",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1632",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:01:18-05:00",
+                "arrival_uncertainty": 120,
+                "departure_time": "2024-02-07T08:02:04-05:00",
+                "departure_uncertainty": 120,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60455503-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455503",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA455",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:02:59-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 80
+            },
+            "id": "prediction-CR-627665-282-BNT-0000-80",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Haverhill",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627665-282",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1706",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:04:23-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:05:14-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-60455379-70026-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70026",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455379",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA8E0",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:04:45-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T08:05:29-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-ADDED-1581777794-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-D",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "ADDED-1581777794",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10036",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:10:12-05:00",
+                "arrival_uncertainty": 120,
+                "departure_time": "2024-02-07T08:10:58-05:00",
+                "departure_uncertainty": 120,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60455504-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455504",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA454",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:10:28-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T08:11:12-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-60564610-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-D",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60564610",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10077",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:12:22-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-CR-627689-308-BNT-0000-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Lowell",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627689-308",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1708",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:12:23-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:13:14-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-60455380-70026-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70026",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455380",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA670",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:16:29-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 50
+            },
+            "id": "prediction-CR-627642-204-BNT-0000-50",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Haverhill",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627642-204",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1720",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:18:18-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:19:04-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60455505-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455505",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA8DC",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:18:55-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T08:19:39-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 630
+            },
+            "id": "prediction-ADDED-1581777804-70205-630",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-D",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70205",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "ADDED-1581777804",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10073",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:20:23-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:21:14-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-60455382-70026-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70026",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455382",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA453",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:25:02-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 120
+            },
+            "id": "prediction-CR-649265-104-BNT-0000-120",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Newburyport",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-649265-104",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1713",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:26:18-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:27:04-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60455506-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455506",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA8E5",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:34:18-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:35:04-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-NONREV-1580530322-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "NONREV-1580530322",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA8DF",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:36:23-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:37:14-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-60455383-70026-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70026",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455383",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA458",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:42:18-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:43:04-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60455507-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455507",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA8E4",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:44:23-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:45:14-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 60
+            },
+            "id": "prediction-60455384-70026-60",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70026",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455384",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA456",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:48:08-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 160
+            },
+            "id": "prediction-WedSki651576-406-BNT-0000-160",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fitchburg",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "BNT-0000",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "WedSki651576-406",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1636",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:50:18-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:51:04-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60455508-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455508",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA8E3",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:58:18-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:59:04-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60455509-70027-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Orange",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70027",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60455509",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "O-547AA8E2",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

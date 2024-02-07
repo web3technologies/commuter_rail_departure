@@ -1,0 +1,4924 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:00:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113443-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113443",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1338",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:46:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113442-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113442",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1334",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:26:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113419-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113419",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1343",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:13:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113397-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113397",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1333",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:34:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113115-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113115",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1301",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:04:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113113-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113113",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1301",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:27:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113101-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113101",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1302",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:57:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113099-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113099",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1302",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:19:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113087-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113087",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1309",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:49:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113085-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113085",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1309",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:11:21-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113073-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113073",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1328",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:41:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60113072-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113072",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1328",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:21:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112962-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112962",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1305",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:47:15-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112934-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112934",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1311",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:48:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112915-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112915",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1307",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:31:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112913-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112913",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1324",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:11:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112912-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112912",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1320",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:01:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112895-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112895",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1314",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:40:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112891-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112891",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1303",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:29:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112743-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "746",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112743",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:29:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112743-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112743",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:29:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112743-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112743",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:29:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112743-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112743",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:14:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112742-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "746",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112742",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:14:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112742-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112742",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:14:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112742-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112742",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T08:14:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112742-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112742",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:59:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112740-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "746",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112740",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:59:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112740-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112740",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:59:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112740-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112740",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:59:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112740-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112740",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:44:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112738-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "746",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112738",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:44:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112738-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112738",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:44:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112738-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112738",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:44:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 1
+            },
+            "id": "prediction-60112738-74611-1",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74611",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112738",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:40:00-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": "All aboard",
+                "stop_sequence": 0
+            },
+            "id": "prediction-AMTKSchCh651473-705-NEC-2287-08-0",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Franklin",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287-08",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651473-705",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": null
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:31:07-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113440-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113440",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1334",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:32:26-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112737-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "746",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112737",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:32:26-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112737-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112737",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:32:26-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112737-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112737",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:32:26-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112737-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112737",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:34:38-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60112917-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112917",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1307",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:35:44-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": "2024-02-07T07:35:59-05:00",
+                "departure_uncertainty": null,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-60746426-20:45-HarvardParkSuspend-70079-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70079",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746426-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA706",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:37:48-05:00",
+                "arrival_uncertainty": 301,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-CR-628090-042-NEC-2287-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Kingston",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628090-042",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1705",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:38:15-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:39:28-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60746255-20:45-HarvardParkSuspend-70080-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70080",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746255-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA8EA",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:38:18-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113068-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113068",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1328",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:41:44-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-AMTKSchCh651466-704-NEC-2287-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Franklin",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651466-704",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1843",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:42:19-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 80
+            },
+            "id": "prediction-CR-627827-906-NEC-2287-80",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Fairmount",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-627827-906",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1802",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:45:18-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113084-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113084",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1309",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:45:38-05:00",
+                "arrival_uncertainty": 301,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-AMTKSchCh651103-806-NEC-2287-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651103-806",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1809",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:46:15-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60113631-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "746",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113631",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1311",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:46:15-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60113631-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113631",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1311",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:46:15-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60113631-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113631",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1311",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:46:15-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60113631-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113631",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1311",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:46:27-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:46:42-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-60746311-20:45-HarvardParkSuspend-70079-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70079",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746311-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA8DE",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:47:02-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:48:15-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-NONREV-1580530247-70080-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70080",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "NONREV-1580530247",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA8E1",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:49:47-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60112958-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112958",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1314",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:50:34-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 110
+            },
+            "id": "prediction-AMTKSchCh651186-604-NEC-2287-110",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Needham",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651186-604",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1711",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:51:12-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-CR-628116-006-NEC-2287-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Middleborough",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628116-006",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1812",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:52:34-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113441-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113441",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1338",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:52:37-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 100
+            },
+            "id": "prediction-CR-628033-506-1-NEC-2287-100",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Worcester",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628033-506-1",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1830",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:53:30-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T07:53:45-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": "Stopped 6 stops away",
+                "stop_sequence": 90
+            },
+            "id": "prediction-NONREV-1580530308-70079-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70079",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "NONREV-1580530308",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547A9B87",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:54:44-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113098-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113098",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1302",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:56:02-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112739-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "746",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112739",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:56:02-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112739-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112739",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:56:02-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112739-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112739",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:56:02-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112739-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112739",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:56:34-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 70
+            },
+            "id": "prediction-AMTKSchCh651491-864-NEC-2287-70",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651491-864",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1715",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:56:58-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60112941-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112941",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1320",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T07:57:18-05:00",
+                "arrival_uncertainty": 120,
+                "departure_time": "2024-02-07T07:58:31-05:00",
+                "departure_uncertainty": 120,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60746256-20:45-HarvardParkSuspend-70080-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70080",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746256-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA8EB",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:01:06-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113112-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113112",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1301",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:03:07-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113396-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113396",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1333",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:05:59-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-CR-628061-074-NEC-2287-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Greenbush",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628061-074",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1850",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:07:19-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 110
+            },
+            "id": "prediction-AMTKSchCh651128-742-NEC-2287-110",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Franklin",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651128-742",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1842",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:07:45-05:00",
+                "arrival_uncertainty": 60,
+                "departure_time": "2024-02-07T08:08:58-05:00",
+                "departure_uncertainty": 60,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-NONREV-1580530309-70080-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70080",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "NONREV-1580530309",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA72F",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:09:17-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60112910-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112910",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1305",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:10:14-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112741-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "746",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112741",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:10:14-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112741-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112741",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:10:14-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112741-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112741",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:10:14-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112741-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112741",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:10:21-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:10:36-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-60746312-20:45-HarvardParkSuspend-70079-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70079",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746312-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA314",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:10:21-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113077-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113077",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1328",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:12:20-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113415-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113415",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1343",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:15:37-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60112963-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112963",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1324",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:16:07-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113086-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113086",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1309",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:17:18-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:18:31-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60746257-20:45-HarvardParkSuspend-70080-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70080",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746257-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA8B7",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:19:52-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 120
+            },
+            "id": "prediction-CR-643509-584-1-NEC-2287-120",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Worcester",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-643509-584-1",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1709",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:20:21-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:20:36-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-NONREV-1580530314-70079-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70079",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "NONREV-1580530314",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA348",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:22:18-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113444-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113444",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1334",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:22:40-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-AMTKSchCh651101-808-NEC-2287-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651101-808",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1849",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:22:54-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113100-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113100",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1302",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:23:03-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60112964-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112964",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1304",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:26:44-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-CR-628088-044-NEC-2287-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Kingston",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628088-044",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1815",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:27:10-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112744-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "746",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112744",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:27:10-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112744-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112744",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:27:10-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112744-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112744",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:27:10-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112744-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112744",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:27:19-05:00",
+                "arrival_uncertainty": 120,
+                "departure_time": "2024-02-07T08:28:32-05:00",
+                "departure_uncertainty": 120,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60746374-20:45-HarvardParkSuspend-70080-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70080",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746374-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA5B8",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:29:07-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-AMTKSchCh651481-706-NEC-2287-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Franklin",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651481-706",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1827",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:29:53-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113114-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113114",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1301",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:30:21-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:30:36-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-60746313-20:45-HarvardParkSuspend-70079-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70079",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746313-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA8EA",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:36:20-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 100
+            },
+            "id": "prediction-CR-628031-508-1-NEC-2287-100",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Worcester",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-628031-508-1",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1822",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:36:48-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113078-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113078",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1328",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:37:18-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:38:31-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60746258-20:45-HarvardParkSuspend-70080-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70080",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746258-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA90B",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:39:47-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60112937-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112937",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1311",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:40:21-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:40:36-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-60746429-20:45-HarvardParkSuspend-70079-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70079",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746429-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA8E1",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:41:16-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112746-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "746",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112746",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:41:16-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112746-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112746",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:41:16-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112746-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112746",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:41:16-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 4
+            },
+            "id": "prediction-60112746-74617-4",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112746",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1296",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:41:39-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113445-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113445",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1338",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:43:54-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60112904-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112904",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1303",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:44:06-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-AMTKSchCh651484-810-NEC-2287-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "NEC-2287",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "AMTKSchCh651484-810",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1831",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:45:39-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113088-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "742",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113088",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1309",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:47:19-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:48:32-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60746375-20:45-HarvardParkSuspend-70080-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70080",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746375-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547A969D",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:50:21-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T08:50:36-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 90
+            },
+            "id": "prediction-60746314-20:45-HarvardParkSuspend-70079-90",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70079",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746314-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547AA8EB",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:53:04-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60113398-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "741",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60113398",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1333",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T08:53:16-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60112893-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112893",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1307",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T09:02:26-05:00",
+                "arrival_uncertainty": null,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 10
+            },
+            "id": "prediction-60112900-74617-10",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "743",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "74617",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60112900",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "y1314",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2024-02-07T09:07:19-05:00",
+                "arrival_uncertainty": 360,
+                "departure_time": "2024-02-07T09:08:32-05:00",
+                "departure_uncertainty": 360,
+                "direction_id": 1,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 130
+            },
+            "id": "prediction-60746376-20:45-HarvardParkSuspend-70080-130",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Red",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70080",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "60746376-20:45-HarvardParkSuspend",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "R-547A88B6",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    }
+}
