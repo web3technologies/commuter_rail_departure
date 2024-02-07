@@ -6,6 +6,7 @@ from commuter_rail_departure_core.client import mbta_client
 class StopManager(models.Manager):
     
     def create_from_mbta_client(self) -> list:
+        """Creates all of the stop objects using the mbta client"""
         all_stops = []
         stops = mbta_client.get_stops()
         parent_stations = [
