@@ -67,6 +67,16 @@ function App() {
       console.log(e)
     }
   }
+
+  function convertArrivalTime(arrivalTime){
+    if(arrivalTime && arrivalTime != 0){
+      return convertDate(arrivalTime)
+    } else if(arrivalTime == 0){
+      return "First Stop"
+    } else {
+      return null
+    }
+  }
   
   return (
     <div className="container">
@@ -115,7 +125,7 @@ function App() {
                 departures.departures.map(departure => (
                   <tr style={{color: departure.has_prediction ? "#6495ED": null} }>
                       <td>{departure.carrier}</td>
-                      <td>{departure.arrival_time ? convertDate(departure.arrival_time) : null}</td>
+                      <td>{convertArrivalTime(departure.arrival_time)}</td>
                       <td>{departure.departure_time ? convertDate(departure.departure_time) : null}</td>
                       <td>{departure.destination}</td>
                       <td>{departure.vehicle_id}</td>

@@ -57,7 +57,7 @@ class DepartureProcessor:
                     {
                         "carrier": "MBTA",
                         "departure_time": str(prediction.departure_time) if prediction.departure_time else None,
-                        "arrival_time": str(prediction.arrival_time) if prediction.arrival_time else None,
+                        "arrival_time": str(prediction.arrival_time) if prediction.arrival_time else prediction.stop_sequence,
                         "destination": trip_cache[prediction.trip_id].headsign if prediction.trip_id in trip_cache else None, 
                         "vehicle_id": trip_id_to_vehicle_mapping[prediction.trip_id].label if prediction.trip_id in trip_id_to_vehicle_mapping else None, 
                         "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
@@ -70,7 +70,7 @@ class DepartureProcessor:
                      {
                         "carrier": "MBTA",
                         "departure_time": str(schedule.departure_time) if schedule.departure_time else None,
-                        "arrival_time": str(schedule.arrival_time) if schedule.arrival_time else None,
+                        "arrival_time": str(schedule.arrival_time) if schedule.arrival_time else schedule.stop_sequence,
                         "destination": trip_cache[schedule.trip_id].headsign if schedule.trip_id in trip_cache else None, 
                         "vehicle_id": trip_id_to_vehicle_mapping[schedule.trip_id].label if schedule.trip_id in trip_id_to_vehicle_mapping else None, 
                         "status": "ON-TIME",
