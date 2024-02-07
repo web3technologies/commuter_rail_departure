@@ -1,6 +1,6 @@
 from collections import defaultdict
 from datetime import datetime, timezone
-from typing import List, Optional
+from typing import List, Optional, Set
 
 import requests
 
@@ -71,6 +71,11 @@ class MBTAClient:
     def get_trip(self, trip_id:str) -> TripData:
         data = self._request(f"trips/{trip_id}")
         return TripData.from_dict(data.get("data"))
+    
+    def get_trips(self, route_ids:List|Set[str]) -> TripData:
+        params = {"filter[route]": ",".join(route_ids)}
+        data = self._request(f"trips", params)
+        return [TripData.from_dict(obj) for obj in data.get("data")]
     
     def get_vehicle(self, vehicle_id:str) -> VehicleData:
         data = self._request(f"vehicles/{vehicle_id}")
