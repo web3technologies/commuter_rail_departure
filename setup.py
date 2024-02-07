@@ -31,7 +31,7 @@ tests_require = [
 
 setup(
     name="commuter_rail_departure",
-    version="0.1.0",
+    version="0.1.1",
     description="Commuter Rail Departure",
     author="Zach Cook",
     author_email="zach@web3technologies.io",

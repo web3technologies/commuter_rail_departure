@@ -42,6 +42,27 @@ class DepartureProcessor:
             status = None
         return status
     
+    def __serializer_added_predictions(self, predictions, route_set, trip_cache, trip_id_to_vehicle_mapping):
+        """Handle added predictions that are not in the schedule dataset"""
+        for prediction in predictions:
+            if (
+                prediction.route_id in route_set and 
+                prediction.schedule_relationship == "ADDED" and
+                prediction.departure_time < self.__eastern_time
+            ):
+                self.__departure_data.append(
+                    {
+                        "carrier": "MBTA",
+                        "departure_time": str(prediction.departure_time) if prediction.departure_time else None,
+                        "arrival_time": str(prediction.arrival_time) if prediction.arrival_time else prediction.stop_sequence,
+                        "destination": trip_cache[prediction.trip_id].headsign if prediction.trip_id in trip_cache else None, 
+                        "vehicle_id": trip_id_to_vehicle_mapping[prediction.trip_id].label if prediction.trip_id in trip_id_to_vehicle_mapping else None, 
+                        "status": "ADDED",
+                        "has_prediction": False
+                    }
+                )
+
+    
     def __serialize_dataset(self, trip_id_to_prediction_mapping, trip_id_to_schedule_mapping, trip_cache, trip_id_to_vehicle_mapping):
         """Using the data from the workable data serialize the data so it available to send via the api"""
         for _, schedule in trip_id_to_schedule_mapping.items():
@@ -90,6 +111,7 @@ class DepartureProcessor:
             vehicles
         )
         self.__serialize_dataset(trip_id_to_prediction_mapping, trip_id_to_schedule_mapping, trip_cache, trip_id_to_vehicle_mapping)
+        self.__serializer_added_predictions(predictions, route_set, trip_cache, trip_id_to_vehicle_mapping)
         self.__departure_data.sort(key=lambda predictionData: (predictionData["departure_time"]))
         return self.__departure_data
     
