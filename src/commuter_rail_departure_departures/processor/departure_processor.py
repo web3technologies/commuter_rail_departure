@@ -51,8 +51,8 @@ class DepartureProcessor:
             if (schedule.trip_id, schedule.stop_id) in trip_id_to_prediction_mapping:
                 prediction = trip_id_to_prediction_mapping[(schedule.trip_id, schedule.stop_id)]
                 status = self.__get_status(prediction, schedule)
-                append_data = (
-                                        {
+                departure = (
+                    {
                         "carrier": "MBTA",
                         "departure_time": str(prediction.departure_time) if prediction.departure_time else None,
                         "arrival_time": str(prediction.arrival_time) if prediction.arrival_time else None,
@@ -63,7 +63,7 @@ class DepartureProcessor:
                     }
                 )
             else:
-                append_data = (
+                departure = (
                      {
                         "carrier": "MBTA",
                         "departure_time": str(schedule.departure_time) if schedule.departure_time else None,
@@ -74,7 +74,7 @@ class DepartureProcessor:
                         "has_prediction": False
                     }
                 )
-            self.__departure_data.append(append_data)
+            self.__departure_data.append(departure)
     
     def process_data(self) -> list:
         """ Entry method that is the global process to return the data"""
