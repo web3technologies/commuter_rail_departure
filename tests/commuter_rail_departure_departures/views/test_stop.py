@@ -7,7 +7,7 @@ from freezegun import freeze_time
 from django.conf import settings
 from rest_framework.test import APIClient
 
-from commuter_rail_departure_departures.models import Stop, Route
+from commuter_rail_departure_departures.models import Stop
 from commuter_rail_departure_departures.serializer.stop import StopSerializer
 
 
@@ -35,7 +35,21 @@ class TestStopReadOnlyViewset:
         moved_time_dt = eastern.localize(datetime.datetime.strptime(moved_time, "%Y-%m-%d %H:%M:%S"))
         with freeze_time(moved_time_dt) as freezer:
             res = self.client.get(f"{self.url}{stop.mbta_id}/")
+            
+        assert res.status_code == 200
         assert res.data == expected_res_data
+        
+    def test_retrieve_departure_arrival_data_skips_passed_time(self, mock_mbta_client, create_stop_and_route):
+        """If the current time is passed the schedule departure time we dont want to retrieve the records"""
+        stop = Stop.objects.get(mbta_id="place-north")
+        moved_time = "2024-02-10 06:44:00"
+        eastern = pytz.timezone('US/Eastern')
+        moved_time_dt = eastern.localize(datetime.datetime.strptime(moved_time, "%Y-%m-%d %H:%M:%S"))
+        with freeze_time(moved_time_dt) as freezer:
+            res = self.client.get(f"{self.url}{stop.mbta_id}/")
+            
+        assert res.status_code == 200
+        assert res.data.get("departures") == []
         
         
     def test_retrieve_stop_does_not_exist(self, mock_mbta_client):
