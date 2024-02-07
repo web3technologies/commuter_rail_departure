@@ -41,5 +41,12 @@ GRANT ALL PRIVILEGES ON DATABASE commuter_rail_departure TO commuter_rail_depart
 # Migrate database
 ```python manage.py migrate```
 
+# Setup Stops and Route data
+```
+    python manage.py shell_plus
+    Route.routes.create_from_mbta_client()
+    Stop.stops.create_from_mbta_client()
+```
+
 # Run Django server
 ```python manage.py runserver```

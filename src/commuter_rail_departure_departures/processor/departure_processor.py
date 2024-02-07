@@ -40,14 +40,17 @@ class DepartureProcessor:
             else:
                 status = "LATE"
         else:
-            status = "Unknown"
+            status = None
         return status
     
     def __serialize_dataset(self, trip_id_to_prediction_mapping, trip_id_to_schedule_mapping, trip_cache, trip_id_to_vehicle_mapping):
         """Using the data from the workable data serialize the data so it available to send via the api"""
         for _, schedule in trip_id_to_schedule_mapping.items():
+            # if no departure time documentation states this should be treated as last stop
+            # if current eastern time > the departure time no need to display the data
             if not schedule.departure_time or self.__eastern_time > schedule.departure_time:
                 continue
+            # this signals a prediction has been found for the schedule
             if (schedule.trip_id, schedule.stop_id) in trip_id_to_prediction_mapping:
                 prediction = trip_id_to_prediction_mapping[(schedule.trip_id, schedule.stop_id)]
                 status = self.__get_status(prediction, schedule)
@@ -62,6 +65,7 @@ class DepartureProcessor:
                         "has_prediction": True
                     }
                 )
+            # if there is no prediction available then display the scheduled item
             else:
                 departure = (
                      {
