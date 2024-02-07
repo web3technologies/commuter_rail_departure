@@ -1,6 +1,6 @@
 from collections import defaultdict
 from datetime import datetime, timezone
-from typing import List, Optional
+from typing import List, Optional, Set
 
 import requests
 
@@ -37,10 +37,8 @@ class MBTAClient:
             print(f"Error: {e}")
         return {}
 
-    def get_predictions(self, route_id:str, stop_id:Optional[str]="") -> defaultdict[List[PredictionData]]:
-        params = {'filter[route]': route_id}
-        if stop_id:
-            params["filter[stop]"] = stop_id
+    def get_predictions(self, stop_id) -> defaultdict[List[PredictionData]]:
+        params = {'filter[stop]': stop_id}
         data = self._request('predictions', params)
         predictions = [PredictionData.from_dict(item) for item in data.get("data", [])]
         predictions.sort(key=lambda prediction: prediction.departure_time or datetime.max.replace(tzinfo=timezone.utc))
@@ -55,11 +53,9 @@ class MBTAClient:
         routes = [RouteData.from_dict(item) for item in data.get("data", [])]
         return routes
     
-    def get_schedules(self, route_id:str, stop_id:Optional[str]="") -> defaultdict[List[ScheduleData]]:
+    def get_schedules(self, stop_id) -> defaultdict[List[ScheduleData]]:
         """Gets a list of schedules for a route id"""
-        params = {'filter[route]': route_id}
-        if stop_id:
-            params["filter[stop]"] = stop_id
+        params = {'filter[stop]': stop_id}
         data = self._request('schedules', params)
         schedules = [ScheduleData.from_dict(item) for item in data.get("data", [])]
         return schedules
@@ -75,6 +71,11 @@ class MBTAClient:
     def get_trip(self, trip_id:str) -> TripData:
         data = self._request(f"trips/{trip_id}")
         return TripData.from_dict(data.get("data"))
+    
+    def get_trips(self, route_ids:List|Set[str]) -> TripData:
+        params = {"filter[route]": ",".join(route_ids)}
+        data = self._request(f"trips", params)
+        return [TripData.from_dict(obj) for obj in data.get("data")]
     
     def get_vehicle(self, vehicle_id:str) -> VehicleData:
         data = self._request(f"vehicles/{vehicle_id}")

@@ -14,7 +14,7 @@ function App() {
   async function getData(mbtaId){
       try{
         setLoading(true)
-        const departureData = await fetch(`${process.env.REACT_APP_BASE_URL}/departures/api/${mbtaId}`)
+        const departureData = await fetch(`${process.env.REACT_APP_BASE_URL}/departures/stop/${mbtaId}`)
         const departureJson = await departureData.json()
         setDepartures(departureJson)
         setLoading(false)
@@ -34,6 +34,8 @@ function App() {
     return new Date(date).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
 
   }
+
+  console.log(departures.departures)
   
   return (
     <div className="container">
@@ -50,6 +52,7 @@ function App() {
             <thead>
                 <tr>
                     <th>Carrier</th>
+                    <th>Arrival Time</th>
                     <th>Departure Time</th>
                     <th>Destination</th>
                     <th>Train</th>
@@ -68,6 +71,7 @@ function App() {
                 departures.departures.map(departure => (
                   <tr style={{color: departure.has_prediction ? "#6495ED": null} }>
                       <td>{departure.carrier}</td>
+                      <td>{departure.arrival_time ? convertDate(departure.arrival_time) : null}</td>
                       <td>{departure.departure_time ? convertDate(departure.departure_time) : null}</td>
                       <td>{departure.destination}</td>
                       <td>{departure.vehicle_id}</td>
