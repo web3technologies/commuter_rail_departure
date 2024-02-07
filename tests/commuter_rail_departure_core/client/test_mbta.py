@@ -19,9 +19,20 @@ from commuter_rail_departure_core.types import (
 @pytest.mark.usefixtures("mock_mbta_client") 
 class TestMbtaClient:
     
+    def test_get_schedule_data(self, mock_mbta_client):
+        stop_id="place-north"
+        schedules = mbta_client.get_schedules(stop_id)
+        with open(f"{settings.MOCK_DATA}schedules-place-north.json", "r") as file:
+            data = json.load(file)
+                
+        assert len(schedules) == len(data.get("data")), "The number of schedules does not match"
+        for schedule in schedules:
+            assert isinstance(schedule, ScheduleData), "Schedule object is not an instance of ScheduleData"
+            
     def test_get_predictions(self, mock_mbta_client):
-        predictions = mbta_client.get_predictions("1", "1")
-        with open(f"{settings.MOCK_DATA}predictions.json", "r") as file:
+        stop_id="place-north"
+        predictions = mbta_client.get_predictions(stop_id)
+        with open(f"{settings.MOCK_DATA}predictions-place-north.json", "r") as file:
             data = json.load(file)
                 
         assert len(predictions) == len(data.get("data")), "The number of predictions does not match"
@@ -38,16 +49,7 @@ class TestMbtaClient:
         for route in routes:
             assert isinstance(route, RouteData), "Route object is not an instance of RouteData"
             
-    def test_get_schedule_data(self, mock_mbta_client):
-        schedules = mbta_client.get_schedules("1", "1")
-        with open(f"{settings.MOCK_DATA}schedules.json", "r") as file:
-            data = json.load(file)
-                
-        assert len(schedules) == len(data.get("data")), "The number of schedules does not match"
-        for schedule in schedules:
-            assert isinstance(schedule, ScheduleData), "Schedule object is not an instance of ScheduleData"
-            
-            
+
     def test_get_stop_data(self, mock_mbta_client):
         stops = mbta_client.get_stops()
         with open(f"{settings.MOCK_DATA}stops.json", "r") as file:

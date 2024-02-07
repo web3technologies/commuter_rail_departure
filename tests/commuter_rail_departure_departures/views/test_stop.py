@@ -9,7 +9,7 @@ from commuter_rail_departure_departures.serializer.stop import StopSerializer
 @pytest.mark.django_db
 class TestStopReadOnlyViewset:
 
-    url = "/departures/stop-names/"
+    url = "/departures/stop/"
     client = APIClient()
 
     def test_list_stops(self):

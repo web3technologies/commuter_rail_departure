@@ -16,11 +16,19 @@ def mock_mbta_client(monkeypatch):
         
     def _request(self, endpoint: str, params:dict = None) -> dict:
         if endpoint == "predictions":
-            return __return_dict("predictions.json")
+            if params["filter[stop]"] == "place-north":
+                file = "predictions-place-north.json"
+            elif params["filter[stop]"] == "place-sstat":
+                file = "predictions-place-sstat.json"
+            return __return_dict(file)
         elif endpoint == "routes":
             return __return_dict("routes.json")
         elif endpoint == "schedules":
-            return __return_dict('schedules.json')
+            if params["filter[stop]"] == "place-north":
+                file = "schedules-place-north.json"
+            elif params["filter[stop]"] == "place-sstat":
+                file = "schedules-place-sstat.json"
+            return __return_dict(file)
         elif endpoint == "stops":
             return __return_dict("stops.json")
         elif "trip" in endpoint:
