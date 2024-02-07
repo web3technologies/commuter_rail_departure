@@ -82,5 +82,5 @@ class MBTAClient:
         data = self._request("vehicles", params)
         return [VehicleData.from_dict(obj) for obj in data.get("data")]
 
-
+# avoid uneeded object creation until use
 mbta_client = SimpleLazyObject(lambda: MBTAClient(settings.MBTA_KEY))

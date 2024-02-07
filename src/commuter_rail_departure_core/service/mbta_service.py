@@ -1,7 +1,7 @@
 from django.utils.functional import SimpleLazyObject
 
-from commuter_rail_departure_departures.models import Route
 from commuter_rail_departure_core.client import mbta_client
+from commuter_rail_departure_departures.models import Route
 
 
 class MBTAService:
@@ -29,5 +29,5 @@ class MBTAService:
     def get_vehicles(route_type="2"):
         return mbta_client.get_vehicles(route_type)
 
-
+# avoid uneeded object creation until use
 mbta_service = SimpleLazyObject(MBTAService)
