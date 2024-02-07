@@ -43,7 +43,10 @@ class DepartureProcessor:
         return status
     
     def __serializer_added_predictions(self, predictions, route_set, trip_cache, trip_id_to_vehicle_mapping):
-        """Handle added predictions that are not in the schedule dataset"""
+        """
+            Handle added predictions that are not in the schedule dataset. 
+            They will not be found in the schedule mapping because they are added after the schedule has been made by the mbta system
+        """
         for prediction in predictions:
             if (
                 prediction.route_id in route_set and 
