@@ -2,17 +2,6 @@
 
 echo "Creating the commuter_rail_departure Application"
 
-while getopts ":e:" opt; do
-  case $opt in
-    e)
-      environment=$OPTARG
-      ;;
-    *)
-      echo 'Error in command line parsing' >&2
-      exit 1
-  esac
-done
-
 rm -rf /applications/commuter_rail_departure/
 mkdir /applications/commuter_rail_departure/
 
