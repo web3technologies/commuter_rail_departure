@@ -3,7 +3,7 @@ import json
 
 from django.conf import settings
 
-from commuter_rail_departure_departures.models import Stop, Route
+from commuter_rail_departure_departures.models import Route
 
 from commuter_rail_departure_core.client import mbta_client
 from commuter_rail_departure_core.types import (
@@ -59,8 +59,7 @@ class TestMbtaClient:
         for stop in stops:
             assert isinstance(stop, StopData), "Stop object is not an instance of StopData"
             
-    def test_get_trips_data(self, mock_mbta_client):
-        Route.routes.create_from_mbta_client()
+    def test_get_trips_data(self, mock_mbta_client, create_stop_and_route):
         routes = Route.objects.filter(type=2)
         route_set = set(routes.values_list("mbta_id", flat=True))
         trips = mbta_client.get_trips(route_set)

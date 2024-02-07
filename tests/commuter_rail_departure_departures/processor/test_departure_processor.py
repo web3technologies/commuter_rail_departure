@@ -7,7 +7,6 @@ from commuter_rail_departure_departures.models import Stop, Route
 from commuter_rail_departure_departures.processor.departure_processor import DepartureProcessor
 
 
-
 @pytest.mark.django_db
 class TestDepartureProcessor:
     
