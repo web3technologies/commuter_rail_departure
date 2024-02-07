@@ -5,9 +5,29 @@ import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
 import useStop from "./hooks/useStop";
 
+
+
+const buttonStyle = {
+  padding: "10px 20px",
+  margin: "10px",
+  cursor: "pointer",
+  backgroundColor: "#007bff",
+  color: "white",
+  border: "none",
+  borderRadius: "5px",
+  fontSize: "16px",
+  fontWeight: "bold",
+  boxShadow: "0 2px 4px rgba(0,0,0,0.2)",
+  transition: "background-color 0.3s",
+  outline: "none",
+  width: "100%", // Ensure the button fills the container
+};
+
+
 function App() {
 
   const [ loading, setLoading ] = useState(false)
+  const [ refreshing, setRefreshing ] = useState(false)
   const [ departures, setDepartures ] = useState({eastern_date: undefined, eastern_time: undefined, departures: []})
   const { handleChange, stops, activeStop} = useStop(getData)
 
@@ -35,19 +55,42 @@ function App() {
 
   }
 
-  console.log(departures.departures)
+  async function refreshData(){
+    try{
+      setRefreshing(true)
+      const departureData = await fetch(`${process.env.REACT_APP_BASE_URL}/departures/stop/${activeStop.activeStopId}`)
+      const departureJson = await departureData.json()
+      setDepartures(departureJson)
+      setRefreshing(false)
+    } catch (e) {
+      console.log(e)
+    }
+  }
   
   return (
     <div className="container">
-      <div styles={{display: "flex"}}>
-      <h1>Departures</h1>
-      <h1>Current Stop: {activeStop.activeStopName}</h1>
-      </div>
-        <div className="time-container">
-            <h4>Current Date: { departures.eastern_date }</h4>
-            <h4>Current Time: { departures.eastern_time }</h4>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center"}}>
+        <div style={{ textAlign: "left" }}>
+          <h4>{new Date(departures.eastern_date).toLocaleDateString('en-US', { weekday: 'long' })}</h4>
+          <h4>{departures.eastern_date}</h4>
         </div>
+        <h1>{activeStop.activeStopName} Information</h1>
+        <div style={{ textAlign: "right" }}>
+          <h4>Current Time:</h4>
+          <h4>{departures.eastern_time}</h4>
+        </div>
+      </div>
+      <div style={{display: "flex", justifyContent: "space-between"}}>
         <StopSelector handleChange={handleChange} stops={stops} activeStop={activeStop}/>
+        <div style={{width: "10%", display: "flex", justifyContent: "center", alignItems: "center"}}>
+          {
+            refreshing ?
+            <FontAwesomeIcon icon={faSpinner} spin />
+            :
+            <button style={buttonStyle} onClick={refreshData}>Refresh</button>
+          }
+        </div>
+      </div>
         <table aria-label="Departure board">
             <thead>
                 <tr>
