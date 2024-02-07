@@ -50,3 +50,6 @@ class Route(models.Model):
     
     objects = models.Manager()
     routes = RouteManager()
+    
+    def __str__(self) -> str:
+        return self.mbta_id

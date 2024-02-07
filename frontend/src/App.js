@@ -43,14 +43,6 @@ function App() {
       }
     }
 
-    // initial load
-    useEffect(() => {
-      getData(activeStop.activeStopId)
-      return () => {
-        setDepartures({eastern_date: undefined, eastern_time: undefined, departures: []})
-      }
-    }, [])
-
   // will auto refresh all the data every 10 seconds
   useEffect(() => {
     refreshData();

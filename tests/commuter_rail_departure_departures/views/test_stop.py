@@ -36,3 +36,8 @@ class TestStopReadOnlyViewset:
         with freeze_time(moved_time_dt) as freezer:
             res = self.client.get(f"{self.url}{stop.mbta_id}/")
         assert str(res.data) == expected_res_data
+        
+        
+    def test_retrieve_stop_does_not_exist(self, mock_mbta_client):
+        res = self.client.get(f"{self.url}invalid-mbta-id/")
+        assert res.status_code == 404
