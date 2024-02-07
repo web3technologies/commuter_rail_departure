@@ -5,6 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 MOCK_DATA = os.path.join(BASE_DIR, "mock_data/")
+TEST_DATA = os.path.join(BASE_DIR, "test_data/")
 
 
 DATABASES = {
