@@ -34,6 +34,8 @@ function App() {
     return new Date(date).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
 
   }
+
+  console.log(departures.departures)
   
   return (
     <div className="container">
@@ -50,6 +52,7 @@ function App() {
             <thead>
                 <tr>
                     <th>Carrier</th>
+                    <th>Arrival Time</th>
                     <th>Departure Time</th>
                     <th>Destination</th>
                     <th>Train</th>
@@ -68,43 +71,8 @@ function App() {
                 departures.departures.map(departure => (
                   <tr style={{color: departure.has_prediction ? "#6495ED": null} }>
                       <td>{departure.carrier}</td>
-                      <td>{departure.departure_time ? convertDate(departure.departure_time) : null}</td>
-                      <td>{departure.destination}</td>
-                      <td>{departure.vehicle_id}</td>
-                      <td>{departure.status}</td>
-                  </tr>
-                ))
-              )}
-              {!loading && departures.departures.length === 0 ? (
-                <tr>
-                  <td>No upcoming commuter rail stops.</td>
-                </tr>
-              ) : null}
-            </tbody>
-        </table>
-        <table aria-label="Arrival board">
-            <thead>
-                <tr>
-                    <th>Carrier</th>
-                    <th>Arrival Time</th>
-                    <th>Destination</th>
-                    <th>Train</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-              {loading ? (
-                <tr >
-                  <td colSpan="5" style={{ textAlign: 'center', verticalAlign: 'middle', fontSize: '20px', padding: '20px', display: 'flex'}}>
-                    <FontAwesomeIcon icon={faSpinner} spin /> Loading...
-                  </td>
-                </tr>
-              ) : (
-                departures.departures.length > 0 &&
-                departures.departures.map(departure => (
-                  <tr style={{color: departure.has_prediction ? "#6495ED": null} }>
-                      <td>{departure.carrier}</td>
                       <td>{departure.arrival_time ? convertDate(departure.arrival_time) : null}</td>
+                      <td>{departure.departure_time ? convertDate(departure.departure_time) : null}</td>
                       <td>{departure.destination}</td>
                       <td>{departure.vehicle_id}</td>
                       <td>{departure.status}</td>

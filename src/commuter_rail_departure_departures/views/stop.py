@@ -53,8 +53,8 @@ class StopReadOnlyViewSet(ReadOnlyModelViewSet):
                 append_data = \
                     {
                         "carrier": "MBTA",
-                        "departure_time": prediction.departure_time if prediction.departure_time else "---",
-                        "arrival_time": prediction.arrival_time if prediction.arrival_time else "---",
+                        "departure_time": prediction.departure_time if prediction.departure_time else None,
+                        "arrival_time": prediction.arrival_time if prediction.arrival_time else None,
                         "destination": trip_cache[schedule.trip_id].headsign, 
                         "vehicle_id": prediction.vehicle_id, 
                         "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
@@ -67,8 +67,8 @@ class StopReadOnlyViewSet(ReadOnlyModelViewSet):
                 append_data = \
                 {
                         "carrier": "MBTA",
-                        "departure_time": schedule.departure_time if schedule.departure_time else "---",
-                        "arrival_time": schedule.arrival_time if schedule.arrival_time else "---",
+                        "departure_time": schedule.departure_time if schedule.departure_time else None,
+                        "arrival_time": schedule.arrival_time if schedule.arrival_time else None,
                         "destination": trip_cache[schedule.trip_id].headsign, 
                         "vehicle_id": "Not yet available", 
                         "status": status,
