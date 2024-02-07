@@ -56,3 +56,23 @@ class TestStopReadOnlyViewset:
         """Test to see if a bad stop is sent to the ednpoint ensure it will fail"""
         res = self.client.get(f"{self.url}invalid-mbta-id/")
         assert res.status_code == 404
+        
+    def test_post_should_fail(self, mock_mbta_client):
+        """Should not be able to post to the endpoint"""
+        res = self.client.post(f"{self.url}invalid-mbta-id/", data={})
+        assert res.status_code == 405
+        
+    def test_put_should_fail(self, mock_mbta_client):
+        """Should not be able to put to the endpoint"""
+        res = self.client.put(f"{self.url}invalid-mbta-id/", data={})
+        assert res.status_code == 405
+        
+    def test_patch_should_fail(self, mock_mbta_client):
+        """Should not be able to patch to the endpoint"""
+        res = self.client.patch(f"{self.url}invalid-mbta-id/", data={})
+        assert res.status_code == 405
+        
+    def test_delete_should_fail(self, mock_mbta_client):
+        """Should not be able to delete to the endpoint"""
+        res = self.client.delete(f"{self.url}invalid-mbta-id/", data={})
+        assert res.status_code == 405

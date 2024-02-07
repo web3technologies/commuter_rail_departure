@@ -3,7 +3,6 @@ from datetime import timedelta
 from commuter_rail_departure_core.service import mbta_service
 
 
-
 class DepartureProcessor:
     
     def __init__(self, mbta_id:str, eastern_time):
@@ -65,7 +64,7 @@ class DepartureProcessor:
                         "has_prediction": True
                     }
                 )
-            # if there is no prediction available then display the scheduled item
+            # if there is no prediction available then display the scheduled departure
             else:
                 departure = (
                      {
@@ -93,3 +92,4 @@ class DepartureProcessor:
         self.__serialize_dataset(trip_id_to_prediction_mapping, trip_id_to_schedule_mapping, trip_cache, trip_id_to_vehicle_mapping)
         self.__departure_data.sort(key=lambda predictionData: (predictionData["departure_time"]))
         return self.__departure_data
+    

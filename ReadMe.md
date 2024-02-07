@@ -16,6 +16,7 @@ In order to scale this application to more users it would be essential to not hi
 - **Python**: 3.10
 - **Django**: 4.2.9
 - **Database**: PostgreSQL
+- **Front End**: ReactJS
 
 ## Installation
 Navigate to project directory.
