@@ -10,12 +10,8 @@ export default function useStop(dataFunc){
       
       async function getData(){
         try{
-          const stopRes = await fetch(`${process.env.REACT_APP_BASE_URL}/departures/stop-names/`)
+          const stopRes = await fetch(`${process.env.REACT_APP_BASE_URL}/departures/stop/`)
           const stopJson = await stopRes.json()
-          stopJson.unshift( {
-              "name": "All Stops",
-              "mbta_id": ""
-          })
           setStops(stopJson)
         } catch(e){
           console.log(e)

@@ -4,7 +4,7 @@ import React from 'react';
 function StopSelector({ handleChange, stops, activeStop}) {
 
   return (
-    <div>
+    <div style={{margin: "10px 0"}}>
       <select onChange={handleChange} defaultValue={activeStop.activeStopName}>
         <option value={activeStop.activeStopName} disabled>{activeStop.activeStopName}</option>
         {stops.map(stop => (
