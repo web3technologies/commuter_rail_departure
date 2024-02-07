@@ -24,7 +24,7 @@ export default function useStop(dataFunc){
     const handleChange = (event) => {
         const mbta_id = event.target.value;
         const name = event.target.options[event.target.selectedIndex].getAttribute('data-name');
-        setActiveStop({activeStopName:name, activeStopId:"place-north"})
+        setActiveStop({activeStopName:name, activeStopId:mbta_id})
         dataFunc(mbta_id);
       };
       

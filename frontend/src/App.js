@@ -43,16 +43,25 @@ function App() {
       }
     }
 
+    // initial load
+    useEffect(() => {
+      getData(activeStop.activeStopId)
+      return () => {
+        setDepartures({eastern_date: undefined, eastern_time: undefined, departures: []})
+      }
+    }, [])
+
+  // will auto refresh all the data every 10 seconds
   useEffect(() => {
-    getData(activeStop.activeStopId)
-    return () => {
-      setDepartures({eastern_date: undefined, eastern_time: undefined, departures: []})
-    }
-  }, [])
+    refreshData();
+    const interval = setInterval(() => {
+      refreshData();
+    }, 10000);
+    return () => clearInterval(interval);
+  }, [activeStop.activeStopId]);
   
   function convertDate(date){
     return new Date(date).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true,  timeZone: 'America/New_York' });
-
   }
 
   async function refreshData(){
@@ -80,7 +89,7 @@ function App() {
           <h4>{departures.eastern_time}</h4>
         </div>
       </div>
-      <div style={{display: "flex", justifyContent: "space-between"}}>
+      <div style={{display: "flex", justifyContent: "space-between", alignItems: "center"}}>
         <StopSelector handleChange={handleChange} stops={stops} activeStop={activeStop}/>
         <div style={{width: "10%", display: "flex", justifyContent: "center", alignItems: "center"}}>
           {
