@@ -52,3 +52,10 @@ GRANT ALL PRIVILEGES ON DATABASE commuter_rail_departure TO commuter_rail_depart
 
 # Run Django server
 ```python manage.py runserver```
+
+# Run Tests
+```
+pip install -e .[test]
+```
+- Navigate to root of project directory and execute:
+    ```pytest```
