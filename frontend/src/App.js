@@ -28,7 +28,7 @@ function App() {
 
   const [ loading, setLoading ] = useState(false)
   const [ refreshing, setRefreshing ] = useState(false)
-  const [ departures, setDepartures ] = useState({eastern_date: undefined, eastern_time: undefined, departures: []})
+  const [ departures, setDepartures ] = useState({eastern_date: undefined, eastern_time: undefined, departures: [], arrivals:[]})
   const { handleChange, stops, activeStop} = useStop(getData)
 
   async function getData(mbtaId){
@@ -102,11 +102,11 @@ function App() {
           }
         </div>
       </div>
+        <h2 style={{textAlign: "center"}}>Departures</h2>
         <table aria-label="Departure board">
             <thead>
                 <tr>
                     <th>Carrier</th>
-                    <th>Arrival Time</th>
                     <th>Departure Time</th>
                     <th>Destination</th>
                     <th>Train</th>
@@ -125,7 +125,6 @@ function App() {
                 departures.departures.map(departure => (
                   <tr style={{color: departure.has_prediction ? "#6495ED": null} }>
                       <td>{departure.carrier}</td>
-                      <td>{convertArrivalTime(departure.arrival_time)}</td>
                       <td>{departure.departure_time ? convertDate(departure.departure_time) : null}</td>
                       <td>{departure.destination}</td>
                       <td>{departure.vehicle_id}</td>
@@ -134,6 +133,43 @@ function App() {
                 ))
               )}
               {!loading && departures.departures.length === 0 ? (
+                <tr>
+                  <td>No upcoming commuter rail stops.</td>
+                </tr>
+              ) : null}
+            </tbody>
+        </table>
+        <h2 style={{textAlign: "center"}}>Arrivals</h2>
+        <table aria-label="Arrival board">
+            <thead>
+                <tr>
+                    <th>Carrier</th>
+                    <th>Arrival Time</th>
+                    <th>Origin</th>
+                    <th>Train</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+              {loading ? (
+                <tr >
+                  <td colSpan="5" style={{ textAlign: 'center', verticalAlign: 'middle', fontSize: '20px', padding: '20px', display: 'flex'}}>
+                    <FontAwesomeIcon icon={faSpinner} spin /> Loading...
+                  </td>
+                </tr>
+              ) : (
+                departures.arrivals.length > 0 &&
+                departures.arrivals.map(departure => (
+                  <tr style={{color: departure.has_prediction ? "#6495ED": null} }>
+                      <td>{departure.carrier}</td>
+                      <td>{convertArrivalTime(departure.arrival_time)}</td>
+                      <td>{departure.destination}</td>
+                      <td>{departure.vehicle_id}</td>
+                      <td>{departure.status}</td>
+                  </tr>
+                ))
+              )}
+              {!loading && departures.arrivals.length === 0 ? (
                 <tr>
                   <td>No upcoming commuter rail stops.</td>
                 </tr>

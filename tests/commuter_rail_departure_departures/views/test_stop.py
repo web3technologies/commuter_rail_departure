@@ -28,7 +28,7 @@ class TestStopReadOnlyViewset:
     
     def test_retrieve_departure_arrival_data(self, mock_mbta_client, create_stop_and_route):
         """Test to ensure that the data received is good data"""
-        with open(f"{settings.TEST_DATA}arrival_data.json", "r") as file:
+        with open(f"{settings.TEST_DATA}departure_arrival_data.json", "r") as file:
             expected_res_data = json.load(file)
         stop = Stop.objects.get(mbta_id="place-north")
         moved_time = "2024-02-06 06:44:00"
