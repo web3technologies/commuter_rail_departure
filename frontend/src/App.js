@@ -45,16 +45,16 @@ function App() {
 
   // will auto refresh all the data every 10 seconds
   useEffect(() => {
-    refreshData();
-    const interval = setInterval(() => {
-      refreshData();
-    }, 10000);
-    return () => clearInterval(interval);
-  }, [activeStop.activeStopId]);
-  
-  function convertDate(date){
-    return new Date(date).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true,  timeZone: 'America/New_York' });
-  }
+    getData(activeStop.activeStopId);
+      const interval = setInterval(() => {
+        refreshData();
+      }, 10000);
+      return () => clearInterval(interval);
+    }, [activeStop.activeStopId]);
+    
+    function convertDate(date){
+      return new Date(date).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true,  timeZone: 'America/New_York' });
+    }
 
   async function refreshData(){
     try{
@@ -95,7 +95,7 @@ function App() {
         <StopSelector handleChange={handleChange} stops={stops} activeStop={activeStop}/>
         <div style={{width: "10%", display: "flex", justifyContent: "center", alignItems: "center"}}>
           {
-            refreshing ?
+            refreshing || loading ?
             <FontAwesomeIcon icon={faSpinner} spin />
             :
             <button style={buttonStyle} onClick={refreshData}>Refresh</button>
