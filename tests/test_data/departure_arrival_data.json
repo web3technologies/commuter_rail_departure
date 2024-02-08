@@ -6,8 +6,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "1638",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -15,8 +14,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "1712",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -24,8 +22,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -33,8 +30,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "1724",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -42,8 +38,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "1717",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -51,8 +46,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -60,8 +54,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -69,8 +62,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -78,8 +70,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -87,8 +78,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -96,8 +86,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -105,8 +94,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -114,8 +102,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -123,8 +110,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -132,8 +118,7 @@
             "arrival_time": 0,
             "destination": "Beverly",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -141,8 +126,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -150,8 +134,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -159,8 +142,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -168,8 +150,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -177,8 +158,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -186,8 +166,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -195,8 +174,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -204,8 +182,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -213,8 +190,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -222,8 +198,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -231,8 +206,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -240,8 +214,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -249,8 +222,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -258,8 +230,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -267,8 +238,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -276,8 +246,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -285,8 +254,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -294,8 +262,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -303,8 +270,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -312,8 +278,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -321,8 +286,7 @@
             "arrival_time": 0,
             "destination": "Beverly",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -330,8 +294,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -339,8 +302,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -348,8 +310,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -357,8 +318,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -366,8 +326,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -375,8 +334,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -384,8 +342,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -393,8 +350,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -402,8 +358,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -411,8 +366,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -420,8 +374,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -429,8 +382,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -438,8 +390,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -447,8 +398,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -456,8 +406,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -465,8 +414,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -474,8 +422,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -483,8 +430,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -492,8 +438,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -501,8 +446,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -510,8 +454,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -519,8 +462,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -528,8 +470,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -537,8 +478,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -546,8 +486,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -555,8 +494,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -564,8 +502,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -573,8 +510,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -582,8 +518,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -591,8 +526,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -600,8 +534,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -609,8 +542,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -618,8 +550,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -627,8 +558,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -636,8 +566,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -645,8 +574,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -654,8 +582,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -663,8 +590,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -672,8 +598,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -681,8 +606,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -690,8 +614,7 @@
             "arrival_time": 0,
             "destination": "Newburyport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -699,8 +622,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -708,8 +630,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -717,8 +638,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -726,8 +646,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -735,8 +654,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -744,8 +662,7 @@
             "arrival_time": 0,
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
@@ -753,8 +670,7 @@
             "arrival_time": 0,
             "destination": "Rockport",
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         }
     ],
     "arrivals": [
@@ -763,688 +679,602 @@
             "arrival_time": "2024-02-06 07:01:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 07:03:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 07:10:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 07:26:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 07:34:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 07:40:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 08:07:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 08:50:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 08:55:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 08:55:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 09:08:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 09:24:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 09:32:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 09:40:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 10:00:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 10:01:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 10:08:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 10:24:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 10:31:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 10:55:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 11:00:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 11:03:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 11:09:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 11:29:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 11:54:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 11:55:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 12:01:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 12:03:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 12:30:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 12:39:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 12:55:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 13:03:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 13:24:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 13:31:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 13:55:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 14:00:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 14:03:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 14:09:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 14:54:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 14:55:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 15:02:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 15:03:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 15:31:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 15:39:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 15:55:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 16:00:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 16:03:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 16:24:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 16:32:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 16:55:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 17:01:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 17:03:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 17:09:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 17:40:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 17:59:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 18:13:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 18:19:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 18:22:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 18:32:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 18:39:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 18:49:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 19:07:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 19:24:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 19:27:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 19:50:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 20:05:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 20:08:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 20:09:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 20:43:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 21:04:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 21:08:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 21:33:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 22:04:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 22:26:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 22:33:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 22:35:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 23:03:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 23:35:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-06 23:58:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-07 00:33:00-05:00",
             "destination": null,
             "vehicle_id": "TBD",
-            "status": "ON-TIME",
-            "has_prediction": false
+            "status": "ON-TIME"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-07 07:39:03-05:00",
             "destination": "North Station",
             "vehicle_id": "1704",
-            "status": "LATE",
-            "has_prediction": true
+            "status": "LATE"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-07 07:59:36-05:00",
             "destination": "Lynn Interim",
             "vehicle_id": "1630",
-            "status": "LATE",
-            "has_prediction": true
+            "status": "LATE"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-07 08:02:59-05:00",
             "destination": "Wakefield",
             "vehicle_id": "1706",
-            "status": "LATE",
-            "has_prediction": true
+            "status": "LATE"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-07 08:12:22-05:00",
             "destination": "Wilmington",
             "vehicle_id": "1708",
-            "status": "LATE",
-            "has_prediction": true
+            "status": "LATE"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-07 08:16:29-05:00",
             "destination": "Andover",
             "vehicle_id": "1720",
-            "status": "LATE",
-            "has_prediction": true
+            "status": "LATE"
         },
         {
             "carrier": "MBTA",
             "arrival_time": "2024-02-07 08:25:02-05:00",
             "destination": "Manchester",
             "vehicle_id": "1713",
-            "status": "LATE",
-            "has_prediction": true
+            "status": "LATE"
         }
     ],
     "eastern_time": "06:44:00 AM",

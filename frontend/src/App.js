@@ -160,7 +160,7 @@ function App() {
               ) : (
                 departures.arrivals.length > 0 &&
                 departures.arrivals.map(departure => (
-                  <tr style={{color: departure.has_prediction ? "#6495ED": null} }>
+                  <tr>
                       <td>{departure.carrier}</td>
                       <td>{convertArrivalTime(departure.arrival_time)}</td>
                       <td>{departure.destination}</td>

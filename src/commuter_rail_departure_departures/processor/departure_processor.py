@@ -95,7 +95,6 @@ class DepartureProcessor:
                             "destination": Stop.objects.get(mbta_id=trip_id_to_vehicle_mapping[prediction.trip_id].stop_id).name if prediction.trip_id in trip_id_to_vehicle_mapping else None, 
                             "vehicle_id": trip_id_to_vehicle_mapping[prediction.trip_id].label if prediction.trip_id in trip_id_to_vehicle_mapping else "TBD", 
                             "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
-                            "has_prediction": True
                         }
                     )
                 else:
@@ -106,7 +105,7 @@ class DepartureProcessor:
                             "destination": Stop.objects.get(mbta_id=trip_id_to_vehicle_mapping[schedule.trip_id].stop_id).name if schedule.trip_id in trip_id_to_vehicle_mapping else None, 
                             "vehicle_id": trip_id_to_vehicle_mapping[schedule.trip_id].label if schedule.trip_id in trip_id_to_vehicle_mapping else "TBD", 
                             "status": "ON-TIME",
-                            "has_prediction": False
+
                         }
                     )
                 self.__arival_only_data.append(arrival)
@@ -126,7 +125,6 @@ class DepartureProcessor:
                             "destination": trip_cache[prediction.trip_id].headsign if prediction.trip_id in trip_cache else None, 
                             "vehicle_id": trip_id_to_vehicle_mapping[prediction.trip_id].label if prediction.trip_id in trip_id_to_vehicle_mapping else "TBD", 
                             "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
-                            "has_prediction": True
                         }
                     )
                 # if there is no prediction available then display the scheduled departure
@@ -139,7 +137,6 @@ class DepartureProcessor:
                             "destination": trip_cache[schedule.trip_id].headsign if schedule.trip_id in trip_cache else None, 
                             "vehicle_id": trip_id_to_vehicle_mapping[schedule.trip_id].label if schedule.trip_id in trip_id_to_vehicle_mapping else "TBD", 
                             "status": "ON-TIME",
-                            "has_prediction": False
                         }
                     )
                 self.__departure_data.append(departure)
