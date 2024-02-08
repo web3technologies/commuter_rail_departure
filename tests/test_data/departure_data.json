@@ -2,7 +2,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 04:20:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -10,7 +9,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 04:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -18,7 +16,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 05:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -26,7 +23,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 05:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -34,7 +30,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 05:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -42,7 +37,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 06:15:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -50,7 +44,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 06:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "1848",
         "status": "ON-TIME"
@@ -58,7 +51,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 06:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -66,7 +58,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 06:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -74,7 +65,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 06:38:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "1841",
         "status": "ON-TIME"
@@ -82,7 +72,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 06:50:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -90,7 +79,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -98,7 +86,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:10:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "1846",
         "status": "ON-TIME"
@@ -106,7 +93,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:10:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "1840",
         "status": "ON-TIME"
@@ -114,7 +100,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:20:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "1801",
         "status": "ON-TIME"
@@ -122,7 +107,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "1808",
         "status": "ON-TIME"
@@ -130,7 +114,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "1837",
         "status": "ON-TIME"
@@ -138,7 +121,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "1839",
         "status": "ON-TIME"
@@ -146,7 +128,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:40:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -154,7 +135,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:50:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -162,7 +142,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -170,7 +149,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 07:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -178,7 +156,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 08:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -186,7 +163,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 08:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -194,7 +170,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 08:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -202,7 +177,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 08:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -210,7 +184,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 08:40:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -218,7 +191,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 08:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -226,7 +198,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 08:48:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -234,7 +205,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 08:50:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -242,7 +212,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 08:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -250,7 +219,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 08:57:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -258,7 +226,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 09:12:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -266,7 +233,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 09:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -274,7 +240,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 09:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -282,7 +247,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 09:33:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -290,7 +254,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 09:35:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -298,7 +261,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 09:50:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -306,7 +268,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 09:50:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -314,7 +275,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 10:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -322,7 +282,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 10:02:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -330,7 +289,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 10:10:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -338,7 +296,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 10:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -346,7 +303,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 10:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -354,7 +310,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 10:35:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -362,7 +317,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 10:48:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -370,7 +324,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 10:50:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -378,7 +331,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 10:50:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -386,7 +338,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 10:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -394,7 +345,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 11:15:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -402,7 +352,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 11:15:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -410,7 +359,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 11:28:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -418,7 +366,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 11:40:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -426,7 +373,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 11:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -434,7 +380,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 11:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -442,7 +387,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 11:50:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -450,7 +394,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 12:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -458,7 +401,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 12:03:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -466,7 +408,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 12:20:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -474,7 +415,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 12:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -482,7 +422,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 12:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -490,7 +429,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 12:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -498,7 +436,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 12:50:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -506,7 +443,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 12:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -514,7 +450,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 13:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -522,7 +457,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 13:05:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -530,7 +464,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 13:10:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -538,7 +471,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 13:18:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -546,7 +478,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 13:20:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -554,7 +485,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 13:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -562,7 +492,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 13:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -570,7 +499,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 13:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -578,7 +506,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 13:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -586,7 +513,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 13:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -594,7 +520,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 14:05:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -602,7 +527,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 14:15:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -610,7 +534,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 14:20:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -618,7 +541,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 14:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -626,7 +548,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 14:33:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -634,7 +555,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 14:40:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -642,7 +562,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 14:40:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -650,7 +569,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 14:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -658,7 +576,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 14:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -666,7 +583,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 15:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -674,7 +590,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 15:15:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -682,7 +597,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 15:20:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -690,7 +604,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 15:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -698,7 +611,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 15:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -706,7 +618,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 15:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -714,7 +625,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 15:33:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -722,7 +632,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 15:52:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -730,7 +639,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 15:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -738,7 +646,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -746,7 +653,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -754,7 +660,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:05:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -762,7 +667,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:05:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -770,7 +674,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:10:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -778,7 +681,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:10:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -786,7 +688,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:15:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -794,7 +695,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:20:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -802,7 +702,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:27:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -810,7 +709,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:33:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -818,7 +716,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -826,7 +723,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:52:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -834,7 +730,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -842,7 +737,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -850,7 +744,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 16:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -858,7 +751,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -866,7 +758,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -874,7 +765,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:05:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -882,7 +772,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:15:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -890,7 +779,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -898,7 +786,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:32:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -906,7 +793,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:33:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -914,7 +800,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:40:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -922,7 +807,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:40:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -930,7 +814,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -938,7 +821,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:50:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -946,7 +828,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -954,7 +835,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 17:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -962,7 +842,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 18:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -970,7 +849,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 18:15:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -978,7 +856,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 18:22:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -986,7 +863,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 18:23:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -994,7 +870,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 18:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1002,7 +877,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 18:35:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1010,7 +884,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 18:35:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1018,7 +891,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 18:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1026,7 +898,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 18:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1034,7 +905,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 19:05:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1042,7 +912,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 19:05:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1050,7 +919,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 19:10:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1058,7 +926,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 19:20:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1066,7 +933,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 19:35:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1074,7 +940,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 19:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1082,7 +947,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 19:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1090,7 +954,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 20:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1098,7 +961,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 20:10:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1106,7 +968,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 20:15:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1114,7 +975,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 20:35:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1122,7 +982,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 20:35:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1130,7 +989,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 20:40:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1138,7 +996,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 20:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1146,7 +1003,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 21:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1154,7 +1010,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 21:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1162,7 +1017,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 21:20:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1170,7 +1024,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 21:25:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1178,7 +1031,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 21:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1186,7 +1038,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 21:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1194,7 +1045,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 22:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1202,7 +1052,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 22:10:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1210,7 +1059,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 22:15:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1218,7 +1066,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 22:30:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1226,7 +1073,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 22:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1234,7 +1080,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 23:00:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1242,7 +1087,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 23:20:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1250,7 +1094,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 23:45:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1258,7 +1101,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 23:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1266,7 +1108,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 23:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"
@@ -1274,7 +1115,6 @@
     {
         "carrier": "MBTA",
         "departure_time": "2024-02-07 23:55:00-05:00",
-        "arrival_time":0,
         "destination": null,
         "vehicle_id": "TBD",
         "status": "ON-TIME"

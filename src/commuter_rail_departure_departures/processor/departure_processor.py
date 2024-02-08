@@ -75,71 +75,77 @@ class DepartureProcessor:
                         "has_prediction": False
                     }
                 )
+                
+                
+    def __handle_arival(self,schedule, trip_id_to_prediction_mapping, trip_id_to_vehicle_mapping):
+        if self.__eastern_time > schedule.arrival_time:
+            return
+        if (schedule.trip_id, schedule.stop_id) in trip_id_to_prediction_mapping:
+            prediction = trip_id_to_prediction_mapping[(schedule.trip_id, schedule.stop_id)]
+            if self.__eastern_time > prediction.arrival_time:
+                return
+            status = self.__get_status(prediction.arrival_time, schedule.arrival_time)
+            arrival = (
+                {
+                    "carrier": "MBTA",
+                    "arrival_time": str(prediction.arrival_time) if prediction.arrival_time else prediction.stop_sequence,
+                    "destination": Stop.objects.get(mbta_id=trip_id_to_vehicle_mapping[prediction.trip_id].stop_id).name if prediction.trip_id in trip_id_to_vehicle_mapping else None, 
+                    "vehicle_id": trip_id_to_vehicle_mapping[prediction.trip_id].label if prediction.trip_id in trip_id_to_vehicle_mapping else "TBD", 
+                    "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
+                }
+            )
+        else:
+            arrival = (
+                {
+                    "carrier": "MBTA",
+                    "arrival_time": str(schedule.arrival_time) if schedule.arrival_time else schedule.stop_sequence,
+                    "destination": Stop.objects.get(mbta_id=trip_id_to_vehicle_mapping[schedule.trip_id].stop_id).name if schedule.trip_id in trip_id_to_vehicle_mapping else None, 
+                    "vehicle_id": trip_id_to_vehicle_mapping[schedule.trip_id].label if schedule.trip_id in trip_id_to_vehicle_mapping else "TBD", 
+                    "status": "ON-TIME",
+
+                }
+            )
+        self.__arival_only_data.append(arrival)
+        
+    def __handle_departure(self, schedule, trip_id_to_prediction_mapping, trip_cache, trip_id_to_vehicle_mapping):
+        # if current eastern time > the departure time no need to display the data
+        if self.__eastern_time > schedule.departure_time:
+            return
+        # this signals a prediction has been found for the schedule
+        elif (schedule.trip_id, schedule.stop_id) in trip_id_to_prediction_mapping:
+            prediction = trip_id_to_prediction_mapping[(schedule.trip_id, schedule.stop_id)]
+            status = self.__get_status(prediction.departure_time, schedule.departure_time)
+            departure = (
+                {
+                    "carrier": "MBTA",
+                    "departure_time": str(prediction.departure_time) if prediction.departure_time else None,
+                    "destination": trip_cache[prediction.trip_id].headsign if prediction.trip_id in trip_cache else None, 
+                    "vehicle_id": trip_id_to_vehicle_mapping[prediction.trip_id].label if prediction.trip_id in trip_id_to_vehicle_mapping else "TBD", 
+                    "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
+                }
+            )
+        # if there is no prediction available then display the scheduled departure
+        else:
+            departure = (
+                {
+                    "carrier": "MBTA",
+                    "departure_time": str(schedule.departure_time) if schedule.departure_time else None,
+                    "destination": trip_cache[schedule.trip_id].headsign if schedule.trip_id in trip_cache else None, 
+                    "vehicle_id": trip_id_to_vehicle_mapping[schedule.trip_id].label if schedule.trip_id in trip_id_to_vehicle_mapping else "TBD", 
+                    "status": "ON-TIME",
+                }
+            )
+        self.__departure_data.append(departure)
 
     def __serialize_dataset(self, trip_id_to_prediction_mapping, trip_id_to_schedule_mapping, trip_cache, trip_id_to_vehicle_mapping):
         """Using the data from the workable data serialize the data so it available to send via the api"""
         for _, schedule in trip_id_to_schedule_mapping.items():
             # if no departure time documentation states this should be treated as a last stop arrival
             if not schedule.departure_time:
-                if self.__eastern_time > schedule.arrival_time:
-                    continue
-                if (schedule.trip_id, schedule.stop_id) in trip_id_to_prediction_mapping:
-                    prediction = trip_id_to_prediction_mapping[(schedule.trip_id, schedule.stop_id)]
-                    if self.__eastern_time > prediction.arrival_time:
-                        continue
-                    status = self.__get_status(prediction.arrival_time, schedule.arrival_time)
-                    arrival = (
-                        {
-                            "carrier": "MBTA",
-                            "arrival_time": str(prediction.arrival_time) if prediction.arrival_time else prediction.stop_sequence,
-                            "destination": Stop.objects.get(mbta_id=trip_id_to_vehicle_mapping[prediction.trip_id].stop_id).name if prediction.trip_id in trip_id_to_vehicle_mapping else None, 
-                            "vehicle_id": trip_id_to_vehicle_mapping[prediction.trip_id].label if prediction.trip_id in trip_id_to_vehicle_mapping else "TBD", 
-                            "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
-                        }
-                    )
-                else:
-                    arrival = (
-                        {
-                            "carrier": "MBTA",
-                            "arrival_time": str(schedule.arrival_time) if schedule.arrival_time else schedule.stop_sequence,
-                            "destination": Stop.objects.get(mbta_id=trip_id_to_vehicle_mapping[schedule.trip_id].stop_id).name if schedule.trip_id in trip_id_to_vehicle_mapping else None, 
-                            "vehicle_id": trip_id_to_vehicle_mapping[schedule.trip_id].label if schedule.trip_id in trip_id_to_vehicle_mapping else "TBD", 
-                            "status": "ON-TIME",
-
-                        }
-                    )
-                self.__arival_only_data.append(arrival)
+                self.__handle_arival(schedule, trip_id_to_prediction_mapping, trip_id_to_vehicle_mapping)
             else:
-                # if current eastern time > the departure time no need to display the data
-                if self.__eastern_time > schedule.departure_time:
-                    continue
-                # this signals a prediction has been found for the schedule
-                elif (schedule.trip_id, schedule.stop_id) in trip_id_to_prediction_mapping:
-                    prediction = trip_id_to_prediction_mapping[(schedule.trip_id, schedule.stop_id)]
-                    status = self.__get_status(prediction.departure_time, schedule.departure_time)
-                    departure = (
-                        {
-                            "carrier": "MBTA",
-                            "departure_time": str(prediction.departure_time) if prediction.departure_time else None,
-                            "arrival_time": str(prediction.arrival_time) if prediction.arrival_time else prediction.stop_sequence,
-                            "destination": trip_cache[prediction.trip_id].headsign if prediction.trip_id in trip_cache else None, 
-                            "vehicle_id": trip_id_to_vehicle_mapping[prediction.trip_id].label if prediction.trip_id in trip_id_to_vehicle_mapping else "TBD", 
-                            "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
-                        }
-                    )
-                # if there is no prediction available then display the scheduled departure
-                else:
-                    departure = (
-                        {
-                            "carrier": "MBTA",
-                            "departure_time": str(schedule.departure_time) if schedule.departure_time else None,
-                            "arrival_time": str(schedule.arrival_time) if schedule.arrival_time else schedule.stop_sequence,
-                            "destination": trip_cache[schedule.trip_id].headsign if schedule.trip_id in trip_cache else None, 
-                            "vehicle_id": trip_id_to_vehicle_mapping[schedule.trip_id].label if schedule.trip_id in trip_id_to_vehicle_mapping else "TBD", 
-                            "status": "ON-TIME",
-                        }
-                    )
-                self.__departure_data.append(departure)
+                self.__handle_departure(schedule, trip_id_to_prediction_mapping, trip_cache, trip_id_to_vehicle_mapping)
+                
     
     def process_data(self):
         """ Entry method that is the global process to return the data"""
