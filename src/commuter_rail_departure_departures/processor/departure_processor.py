@@ -11,7 +11,6 @@ class DepartureProcessor:
         self.__departure_data = []
         self.__arival_only_data = []
         self.__eastern_time = eastern_time
-        self.__stop_cache = {}
     
     @property
     def arrival_data(self):
@@ -86,12 +85,14 @@ class DepartureProcessor:
                     continue
                 if (schedule.trip_id, schedule.stop_id) in trip_id_to_prediction_mapping:
                     prediction = trip_id_to_prediction_mapping[(schedule.trip_id, schedule.stop_id)]
+                    if self.__eastern_time > prediction.arrival_time:
+                        continue
                     status = self.__get_status(prediction.arrival_time, schedule.arrival_time)
                     arrival = (
                         {
                             "carrier": "MBTA",
                             "arrival_time": str(prediction.arrival_time) if prediction.arrival_time else prediction.stop_sequence,
-                            "destination": Stop.objects.get(mbta_id=trip_id_to_vehicle_mapping[prediction.trip_id].stop_id).name, 
+                            "destination": Stop.objects.get(mbta_id=trip_id_to_vehicle_mapping[prediction.trip_id].stop_id).name if prediction.trip_id in trip_id_to_vehicle_mapping else None, 
                             "vehicle_id": trip_id_to_vehicle_mapping[prediction.trip_id].label if prediction.trip_id in trip_id_to_vehicle_mapping else "TBD", 
                             "status": prediction.schedule_relationship if prediction.schedule_relationship == "ADDED" else status,
                             "has_prediction": True

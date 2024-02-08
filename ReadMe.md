@@ -11,7 +11,8 @@ Frontend of the website can be found here: https://commuter-rail-departure.verce
 https://www.mbta.com/developers
 
 ## Improvements
-In order to scale this application to more users it would be essential to not hit the MBTA api for every request to see a Stop's schedule and predictions. In order to achieve this it would be useful to automate the retrieveal of this data and store it in the applications database. This would allow the application to pull the data from its own database to server to users. In order to achieve such scale I would propose the usage of celery to automate the retrieval and storage of this data. This can be done by scheduling tasks to run every n number of minutes.
+- In order to scale this application to more users it would be essential to not hit the MBTA api for every request to see a Stop's schedule and predictions. In order to achieve this it would be useful to automate the retrieveal of this data and store it in the applications database. This would allow the application to pull the data from its own database to server to users. In order to achieve such scale I would propose the usage of celery to automate the retrieval and storage of this data. This can be done by scheduling tasks to run every n number of minutes.
+- Further limitations requiring storage of prediction data is that sometimes MBTA will remove predictions from the api prior to a trip departing or arriving. If this data is not stored and referenced then the prediction will not be accurately projected.
 
 ## Technology Stack
 - **Python**: 3.10
