@@ -139,5 +139,5 @@ class DepartureProcessor:
         self.__serializer_added_predictions(predictions, route_set, trip_cache, trip_id_to_vehicle_mapping)
         self.__departure_data.sort(key=lambda predictionData: (predictionData["departure_time"]))
         self.__arival_only_data.sort(key=lambda arrivalData: arrivalData["arrival_time"])
-        return self.__departure_data, self.__arival_only_data
+        return self.departure_data, self.arrival_data
     
