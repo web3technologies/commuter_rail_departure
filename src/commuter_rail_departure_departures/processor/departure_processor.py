@@ -119,10 +119,10 @@ class DepartureProcessor:
         """Using the data from the workable data serialize the data so it available to send via the api"""
         for _, schedule in trip_id_to_schedule_mapping.items():
             # if no departure time documentation states this should be treated as a last stop arrival
+            event_name = "departure"
             if not schedule.departure_time:
-                self.__handle_event(schedule, trip_id_to_prediction_mapping, trip_id_to_vehicle_mapping, trip_cache, "arrival")
-            else:
-                self.__handle_event(schedule, trip_id_to_prediction_mapping, trip_id_to_vehicle_mapping, trip_cache, "departure")
+                event_name = "arrival"
+            self.__handle_event(schedule, trip_id_to_prediction_mapping, trip_id_to_vehicle_mapping, trip_cache, event_name)
                 
     
     def process_data(self):
