@@ -1,5 +1,6 @@
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime
+import pytz
 from typing import List, Optional, Set
 
 import requests
@@ -20,6 +21,7 @@ from commuter_rail_departure_core.types import (
 class MBTAClient:
 
     base_url = "https://api-v3.mbta.com"
+    eastern = pytz.timezone('US/Eastern')
     
     def __init__(self, mbta_access_key: str) -> None:
         self.mbta_access_key = mbta_access_key
@@ -41,7 +43,7 @@ class MBTAClient:
         params = {'filter[stop]': stop_id}
         data = self._request('predictions', params)
         predictions = [PredictionData.from_dict(item) for item in data.get("data", [])]
-        predictions.sort(key=lambda prediction: prediction.departure_time or datetime.max.replace(tzinfo=timezone.utc))
+        predictions.sort(key=lambda prediction: prediction.departure_time or datetime.max.replace(tzinfo=self.eastern))
         return predictions
 
     def get_routes(self, types: Optional[List[int]] = None) -> List[RouteData]:
